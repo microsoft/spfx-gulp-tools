@@ -29,6 +29,7 @@
     "@types/gulp-istanbul": "0.9.30",
     "@types/gulp-mocha": "0.0.32",
     "@types/mocha": "5.2.5",
-    "@types/orchestrator": "0.0.30"
+    "@types/orchestrator": "0.0.30",
+    "eslint": "~7.12.1"
   }
 }
