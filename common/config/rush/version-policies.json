@@ -87,11 +87,4 @@
   //    */
   //   "exemptFromRushChange": false
   // }
-  {
-    "policyName": "rush",
-    "definitionName": "lockStepVersion",
-    "version": "5.47.0",
-    "nextBump": "minor",
-    "mainProject": "@microsoft/rush"
-  }
 ]
