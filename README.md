@@ -67,6 +67,7 @@ The [Rush Stack](https://rushstack.io/) community maintains the projects in this
 | [/build-tests/rush-stack-compiler-4.1-library-test](./build-tests/rush-stack-compiler-4.1-library-test/) |  |
 | [/build-tests/rush-stack-compiler-4.2-library-test](./build-tests/rush-stack-compiler-4.2-library-test/) |  |
 | [/build-tests/web-library-build-test](./build-tests/web-library-build-test/) |  |
+| [/repo-scripts/repo-toolbox](./repo-scripts/repo-toolbox/) | Used to execute various operations specific to this repo |
 | [/stack/rush-stack-compiler-shared](./stack/rush-stack-compiler-shared/) |  |
 <!-- GENERATED PROJECT SUMMARY END -->
 
