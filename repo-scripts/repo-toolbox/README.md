@@ -1,1 +1,0 @@
-A set of useful scripts for the repo. Keep this in sync with https://github.com/microsoft/rushstack/tree/master/repo-scripts/repo-toolbox
