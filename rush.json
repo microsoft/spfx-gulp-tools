@@ -605,14 +605,6 @@
       "shouldPublish": true
     },
 
-    // "core-build" folder (alphabetical order)
-    {
-      "packageName": "repo-toolbox",
-      "projectFolder": "repo-scripts/repo-toolbox",
-      "reviewCategory": "libraries",
-      "shouldPublish": false
-    },
-
     // "stack" folder (alphabetical order)
     {
       "packageName": "@microsoft/rush-stack-compiler-2.4",

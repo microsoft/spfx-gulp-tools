@@ -1,3 +1,10 @@
+resources:
+  repositories:
+    - repository: RushstackMainRepo
+      type: github
+      name: Microsoft/rushstack
+      endpoint: 'GitHub (Rushbot)'
+
 pool:
   vmImage: 'ubuntu-latest'
 variables:
@@ -6,6 +13,7 @@ variables:
 steps:
   - checkout: self
     persistCredentials: true
+    path: rushstack-legacy
   - template: templates/build.yaml
   - template: templates/publish.yaml
     parameters:
