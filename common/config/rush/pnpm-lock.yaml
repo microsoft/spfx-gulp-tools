@@ -465,16 +465,16 @@ importers:
       '@types/gulp': 4.0.6
       '@types/jest': 25.2.1
       '@types/node': 10.17.13
-      '@types/sass': 1.16.0
+      '@types/sass': 1.43.1
       autoprefixer: ~9.8.0
       clean-css: 4.2.1
       eslint: ~7.12.1
       glob: ~7.0.5
       gulp: ~4.0.2
       jest: ~25.4.0
-      postcss: 7.0.32
+      postcss: 7.0.38
       postcss-modules: ~1.5.0
-      sass: 1.32.12
+      sass: 1.44.0
     dependencies:
       '@microsoft/gulp-core-build': link:../gulp-core-build
       '@microsoft/load-themed-styles': 1.10.172
@@ -484,9 +484,9 @@ importers:
       autoprefixer: 9.8.6
       clean-css: 4.2.1
       glob: 7.0.6
-      postcss: 7.0.32
+      postcss: 7.0.38
       postcss-modules: 1.5.0
-      sass: 1.32.12
+      sass: 1.44.0
     devDependencies:
       '@microsoft/node-library-build': link:../node-library-build
       '@microsoft/rush-stack-compiler-3.9': link:../../stack/rush-stack-compiler-3.9
@@ -495,7 +495,7 @@ importers:
       '@types/clean-css': 4.2.1
       '@types/glob': 7.1.1
       '@types/jest': 25.2.1
-      '@types/sass': 1.16.0
+      '@types/sass': 1.43.1
       eslint: 7.12.1
       gulp: 4.0.2
       jest: 25.4.0
@@ -2164,7 +2164,7 @@ packages:
     resolution: {integrity: sha512-QX7U7YW3zX3ex6MECtWO9folTGsXeP4b8bSjTq3I1ODM+H+sFHwGKuof+T+qBcDClGlCGtDb3SVfiTVfmcxw4g==}
     dependencies:
       '@types/browserslist': 4.15.0
-      postcss: 7.0.32
+      postcss: 7.0.38
     dev: true
 
   /@types/babel__core/7.1.14:
@@ -2341,8 +2341,8 @@ packages:
       '@types/node': 10.17.13
     dev: true
 
-  /@types/sass/1.16.0:
-    resolution: {integrity: sha512-2XZovu4NwcqmtZtsBR5XYLw18T8cBCnU2USFHTnYLLHz9fkhnoEMoDsqShJIOFsFhn5aJHjweiUUdTrDGujegA==}
+  /@types/sass/1.43.1:
+    resolution: {integrity: sha512-BPdoIt1lfJ6B7rw35ncdwBZrAssjcwzI5LByIrYs+tpXlj/CAkuVdRsgZDdP4lq5EjyWzwxZCqAoFyHKFwp32g==}
     dependencies:
       '@types/node': 10.17.13
     dev: true
@@ -3177,7 +3177,7 @@ packages:
       colorette: 1.2.2
       normalize-range: 0.1.2
       num2fraction: 1.2.2
-      postcss: 7.0.32
+      postcss: 7.0.38
       postcss-value-parser: 4.1.0
     dev: false
 
@@ -5684,6 +5684,10 @@ packages:
     resolution: {integrity: sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==}
     engines: {node: '>= 4'}
 
+  /immutable/4.0.0:
+    resolution: {integrity: sha512-zIE9hX70qew5qTUjSS7wi1iwj/l7+m54KWU247nhM3v806UdGj1yDndXj+IOYxxtW9zyLI+xqFNZjTuDaLUqFw==}
+    dev: false
+
   /import-fresh/3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
     engines: {node: '>=6'}
@@ -7313,6 +7317,9 @@ packages:
   /nan/2.14.2:
     resolution: {integrity: sha512-M2ufzIiINKCuDfBSAUr1vWQ+vuVcA9kqx8JJUsbQi6yf1uGRyb7HfpdfUr5qLXf3B/t8dPvcjhKMmlfnP47EzQ==}
 
+  /nanocolors/0.2.13:
+    resolution: {integrity: sha512-0n3mSAQLPpGLV9ORXT5+C/D4mwew7Ebws69Hx4E2sgz2ZA5+32Q80B9tL8PbL7XHnRDiAxH/pnrUJ9a4fkTNTA==}
+
   /nanomatch/1.2.13:
     resolution: {integrity: sha512-fpoe2T0RbHwBTBUOftAfBPaDEi06ufaUai0mE6Yn1kacc3SnTErfb/h+X94VXzI64rKFHYImXSvdwGGCmwOqCA==}
     engines: {node: '>=0.10.0'}
@@ -8018,7 +8025,7 @@ packages:
       css-modules-loader-core: 1.1.0
       generic-names: 2.0.1
       lodash.camelcase: 4.3.0
-      postcss: 7.0.32
+      postcss: 7.0.38
       string-hash: 1.1.3
 
   /postcss-value-parser/4.1.0:
@@ -8040,6 +8047,14 @@ packages:
       chalk: 2.4.2
       source-map: 0.6.1
       supports-color: 6.1.0
+    dev: true
+
+  /postcss/7.0.38:
+    resolution: {integrity: sha512-wNrSHWjHDQJR/IZL5IKGxRtFgrYNaAA/UrkW2WqbtZO6uxSLMxMN+s2iqUMwnAWm3fMROlDYZB41dr0Mt7vBwQ==}
+    engines: {node: '>=6.0.0'}
+    dependencies:
+      nanocolors: 0.2.13
+      source-map: 0.6.1
 
   /prelude-ls/1.1.2:
     resolution: {integrity: sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=}
@@ -8597,12 +8612,13 @@ packages:
       yargs: 13.3.2
     dev: true
 
-  /sass/1.32.12:
-    resolution: {integrity: sha512-zmXn03k3hN0KaiVTjohgkg98C3UowhL1/VSGdj4/VAAiMKGQOE80PFPxFP2Kyq0OUskPKcY5lImkhBKEHlypJA==}
+  /sass/1.44.0:
+    resolution: {integrity: sha512-0hLREbHFXGQqls/K8X+koeP+ogFRPF4ZqetVB19b7Cst9Er8cOR0rc6RU7MaI4W1JmUShd1BPgPoeqmmgMMYFw==}
     engines: {node: '>=8.9.0'}
     hasBin: true
     dependencies:
       chokidar: 3.5.1
+      immutable: 4.0.0
     dev: false
 
   /sax/1.2.4:
@@ -9212,6 +9228,7 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       has-flag: 3.0.0
+    dev: true
 
   /supports-color/7.2.0:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
