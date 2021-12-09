@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@microsoft/web-library-build",
+      "comment": "Upgrade rushstack dependencies.",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@microsoft/web-library-build",
+  "email": "halfnibble@users.noreply.github.com"
+}

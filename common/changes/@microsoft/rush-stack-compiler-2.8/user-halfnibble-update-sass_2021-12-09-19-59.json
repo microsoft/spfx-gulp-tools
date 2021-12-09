@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@microsoft/rush-stack-compiler-2.8",
+      "comment": "Upgrade rushstack dependencies.",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@microsoft/rush-stack-compiler-2.8",
+  "email": "halfnibble@users.noreply.github.com"
+}
