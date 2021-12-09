@@ -81,7 +81,12 @@ export class EslintRunner extends RushStackCompilerBase<ILintRunnerConfig> {
       onData: (data: Buffer) => {
         stdoutBuffer.push(data.toString());
       },
-      onClose: (code: number, hasErrors: boolean, resolve: () => void, reject: (error: Error) => void) => {
+      onClose: (
+        code: number,
+        hasErrors: boolean,
+        resolve: (value: unknown) => void,
+        reject: (error: Error) => void
+      ) => {
         const dataStr: string = stdoutBuffer.join('');
 
         try {
@@ -109,7 +114,7 @@ export class EslintRunner extends RushStackCompilerBase<ILintRunnerConfig> {
         if (this._taskOptions.displayAsError && (code !== 0 || hasErrors)) {
           reject(new Error(`exited with code ${code}`));
         } else {
-          resolve();
+          resolve(code);
         }
       }
     });

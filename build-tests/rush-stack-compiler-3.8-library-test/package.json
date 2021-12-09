@@ -11,7 +11,7 @@
   "devDependencies": {
     "@microsoft/node-library-build": "workspace:*",
     "@microsoft/rush-stack-compiler-3.8": "workspace:*",
-    "@rushstack/eslint-config": "~2.3.4",
+    "@rushstack/eslint-config": "~2.5.0",
     "@types/node": "10.17.13",
     "eslint": "~7.12.1",
     "gulp": "~4.0.2"

@@ -4,7 +4,7 @@
 import * as childProcess from 'child_process';
 import * as path from 'path';
 
-import { IPackageJson, FileSystem, Terminal } from '@rushstack/node-core-library';
+import { IPackageJson, FileSystem, ITerminal } from '@rushstack/node-core-library';
 import { StandardBuildFolders } from './StandardBuildFolders';
 
 /**
@@ -35,7 +35,12 @@ export interface IRunCmdOptions {
   args: string[];
   onData?: (data: Buffer) => void;
   onError?: (data: Buffer) => void;
-  onClose?: (code: number, hasErrors: boolean, resolve: () => void, reject: (error: Error) => void) => void;
+  onClose?: (
+    code: number,
+    hasErrors: boolean,
+    resolve: (value: unknown) => void,
+    reject: (error: Error) => void
+  ) => void;
 }
 
 /**
@@ -47,11 +52,11 @@ export class CmdRunner {
   private static readonly _nodePath: string = process.execPath;
 
   private _standardBuildFolders: StandardBuildFolders;
-  private _terminal: Terminal;
+  private _terminal: ITerminal;
   private _options: IBaseTaskOptions;
   private _errorHasBeenLogged: boolean;
 
-  public constructor(constants: StandardBuildFolders, terminal: Terminal, options: IBaseTaskOptions) {
+  public constructor(constants: StandardBuildFolders, terminal: ITerminal, options: IBaseTaskOptions) {
     this._standardBuildFolders = constants;
     this._terminal = terminal;
     this._options = options;
@@ -82,7 +87,7 @@ export class CmdRunner {
       );
     }
 
-    await new Promise((resolve: () => void, reject: (error: Error) => void) => {
+    await new Promise((resolve: (value: unknown) => void, reject: (error: Error) => void) => {
       const nodePath: string | undefined = CmdRunner._nodePath;
       if (!nodePath) {
         reject(new Error('Unable to find node executable'));
@@ -120,13 +125,13 @@ export class CmdRunner {
   protected _onClose(
     code: number,
     hasErrors: boolean,
-    resolve: () => void,
+    resolve: (value: unknown) => void,
     reject: (error: Error) => void
   ): void {
     if (code !== 0 || hasErrors) {
       reject(new Error(`exited with code ${code}`));
     } else {
-      resolve();
+      resolve(code);
     }
   }
 }
