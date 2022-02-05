@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@microsoft/gulp-core-build-webpack",
+      "comment": "Handle errors that occur when calling toJson on the webpack stats object.",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@microsoft/gulp-core-build-webpack",
+  "email": "iclanton@users.noreply.github.com"
+}
