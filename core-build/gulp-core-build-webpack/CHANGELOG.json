@@ -2,6 +2,18 @@
   "name": "@microsoft/gulp-core-build-webpack",
   "entries": [
     {
+      "version": "5.2.21",
+      "tag": "@microsoft/gulp-core-build-webpack_v5.2.21",
+      "date": "Sat, 05 Feb 2022 00:42:06 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Handle errors that occur when calling toJson on the webpack stats object."
+          }
+        ]
+      }
+    },
+    {
       "version": "5.2.20",
       "tag": "@microsoft/gulp-core-build-webpack_v5.2.20",
       "date": "Wed, 19 May 2021 00:11:39 GMT",

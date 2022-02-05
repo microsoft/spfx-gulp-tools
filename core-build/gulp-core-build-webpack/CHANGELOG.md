@@ -1,6 +1,13 @@
 # Change Log - @microsoft/gulp-core-build-webpack
 
-This log was last generated on Wed, 19 May 2021 00:11:39 GMT and should not be manually modified.
+This log was last generated on Sat, 05 Feb 2022 00:42:06 GMT and should not be manually modified.
+
+## 5.2.21
+Sat, 05 Feb 2022 00:42:06 GMT
+
+### Patches
+
+- Handle errors that occur when calling toJson on the webpack stats object.
 
 ## 5.2.20
 Wed, 19 May 2021 00:11:39 GMT

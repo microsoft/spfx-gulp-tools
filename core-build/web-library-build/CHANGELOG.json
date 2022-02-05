@@ -2,6 +2,18 @@
   "name": "@microsoft/web-library-build",
   "entries": [
     {
+      "version": "7.5.78",
+      "tag": "@microsoft/web-library-build_v7.5.78",
+      "date": "Sat, 05 Feb 2022 00:42:06 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@microsoft/gulp-core-build-webpack\" to `5.2.21`"
+          }
+        ]
+      }
+    },
+    {
       "version": "7.5.77",
       "tag": "@microsoft/web-library-build_v7.5.77",
       "date": "Tue, 25 May 2021 00:12:21 GMT",
