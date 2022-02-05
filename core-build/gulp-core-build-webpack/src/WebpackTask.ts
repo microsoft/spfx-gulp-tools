@@ -128,63 +128,78 @@ export class WebpackTask<TExtendedConfig = {}> extends GulpTask<IWebpackTaskConf
           // eslint-disable-next-line dot-notation
           this.buildConfig.properties['webpackStats'] = stats;
 
-          const statsResult: Webpack.Stats.ToJsonOutput = stats.toJson({
-            hash: false,
-            source: false
-          });
-
-          if (statsResult.errors && statsResult.errors.length) {
-            this.logError(`'${outputDir}':` + EOL + statsResult.errors.join(EOL) + EOL);
-          }
-
-          if (statsResult.warnings && statsResult.warnings.length) {
-            const unsuppressedWarnings: string[] = [];
-            const warningSuppressionRegexes: RegExp[] = (this.taskConfig.suppressWarnings || []).map(
-              (regex: string) => {
-                return new RegExp(regex);
-              }
-            );
-
-            statsResult.warnings.forEach((warning: string) => {
-              let suppressed: boolean = false;
-              for (let i: number = 0; i < warningSuppressionRegexes.length; i++) {
-                const suppressionRegex: RegExp = warningSuppressionRegexes[i];
-                if (warning.match(suppressionRegex)) {
-                  suppressed = true;
-                  break;
-                }
-              }
-
-              if (!suppressed) {
-                unsuppressedWarnings.push(warning);
-              }
+          let statsResult: Webpack.Stats.ToJsonOutput | undefined;
+          try {
+            statsResult = stats.toJson({
+              hash: false,
+              source: false
             });
+          } catch (e) {
+            this.logError(`Error processing webpack stats: ${e}`);
 
-            if (unsuppressedWarnings.length > 0) {
-              this.logWarning(`'${outputDir}':` + EOL + unsuppressedWarnings.join(EOL) + EOL);
+            if (error) {
+              // Log this here in case we didn't get a stats object because of an error. Otherwise log errors
+              // from the stats object.
+              this.logError(`Webpack error: ${error}`);
             }
           }
 
-          const duration: number = new Date().getTime() - startTime;
-          const statsResultChildren: Webpack.Stats.ToJsonOutput[] = statsResult.children
-            ? statsResult.children
-            : [statsResult];
-
-          statsResultChildren.forEach((child) => {
-            if (child.chunks) {
-              child.chunks.forEach((chunk) => {
-                if (chunk.files && this.taskConfig.printStats) {
-                  chunk.files.forEach((file) =>
-                    this.log(
-                      `Bundled: '${colors.cyan(path.basename(file))}', ` +
-                        `size: ${colors.magenta(chunk.size.toString())} bytes, ` +
-                        `took ${colors.magenta(duration.toString(10))} ms.`
-                    )
-                  ); // end file
-                }
-              }); // end chunk
+          if (statsResult) {
+            if (statsResult.errors && statsResult.errors.length) {
+              this.logError(`'${outputDir}':` + EOL + statsResult.errors.join(EOL) + EOL);
             }
-          }); // end child
+
+            if (statsResult.warnings && statsResult.warnings.length) {
+              const unsuppressedWarnings: string[] = [];
+              const warningSuppressionRegexes: RegExp[] = (this.taskConfig.suppressWarnings || []).map(
+                (regex: string) => {
+                  return new RegExp(regex);
+                }
+              );
+
+              for (const warning of statsResult.warnings) {
+                let suppressed: boolean = false;
+                for (let i: number = 0; i < warningSuppressionRegexes.length; i++) {
+                  const suppressionRegex: RegExp = warningSuppressionRegexes[i];
+                  if (warning.match(suppressionRegex)) {
+                    suppressed = true;
+                    break;
+                  }
+                }
+
+                if (!suppressed) {
+                  unsuppressedWarnings.push(warning);
+                }
+              }
+
+              if (unsuppressedWarnings.length > 0) {
+                this.logWarning(`'${outputDir}':` + EOL + unsuppressedWarnings.join(EOL) + EOL);
+              }
+            }
+
+            if (this.taskConfig.printStats) {
+              const duration: number = new Date().getTime() - startTime;
+              const statsResultChildren: Webpack.Stats.ToJsonOutput[] = statsResult.children
+                ? statsResult.children
+                : [statsResult];
+
+              for (const child of statsResultChildren) {
+                if (child.chunks) {
+                  for (const chunk of child.chunks) {
+                    if (chunk.files) {
+                      for (const file of chunk.files) {
+                        this.log(
+                          `Bundled: '${colors.cyan(path.basename(file))}', ` +
+                            `size: ${colors.magenta(chunk.size.toString())} bytes, ` +
+                            `took ${colors.magenta(duration.toString(10))} ms.`
+                        );
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
 
           completeCallback();
         }); // endwebpack callback
