@@ -68,11 +68,16 @@ export class TslintRunner extends RushStackCompilerBase<ITslintRunnerConfig> {
           this._terminal.writeErrorLine(dataStr);
         }
       },
-      onClose: (code: number, hasErrors: boolean, resolve: () => void, reject: (error: Error) => void) => {
+      onClose: (
+        code: number,
+        hasErrors: boolean,
+        resolve: (value: unknown) => void,
+        reject: (error: Error) => void
+      ) => {
         if (this._taskOptions.displayAsError && (code !== 0 || hasErrors)) {
           reject(new Error(`exited with code ${code}`));
         } else {
-          resolve();
+          resolve(code);
         }
       }
     });
