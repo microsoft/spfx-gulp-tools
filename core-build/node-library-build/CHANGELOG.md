@@ -1,6 +1,13 @@
 # Change Log - @microsoft/node-library-build
 
-This log was last generated on Wed, 19 May 2021 00:11:39 GMT and should not be manually modified.
+This log was last generated on Wed, 16 Mar 2022 21:15:16 GMT and should not be manually modified.
+
+## 6.5.27
+Wed, 16 Mar 2022 21:15:16 GMT
+
+### Patches
+
+- Upgrade rushstack dependencies.
 
 ## 6.5.26
 Wed, 19 May 2021 00:11:39 GMT

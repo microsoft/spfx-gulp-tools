@@ -1,6 +1,13 @@
 # Change Log - @microsoft/gulp-core-build-webpack
 
-This log was last generated on Sat, 05 Feb 2022 00:42:06 GMT and should not be manually modified.
+This log was last generated on Wed, 16 Mar 2022 21:15:16 GMT and should not be manually modified.
+
+## 5.2.22
+Wed, 16 Mar 2022 21:15:16 GMT
+
+### Patches
+
+- Upgrade rushstack dependencies.
 
 ## 5.2.21
 Sat, 05 Feb 2022 00:42:06 GMT

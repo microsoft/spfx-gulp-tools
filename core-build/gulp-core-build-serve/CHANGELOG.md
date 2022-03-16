@@ -1,6 +1,13 @@
 # Change Log - @microsoft/gulp-core-build-serve
 
-This log was last generated on Tue, 25 May 2021 00:12:21 GMT and should not be manually modified.
+This log was last generated on Wed, 16 Mar 2022 21:15:16 GMT and should not be manually modified.
+
+## 3.9.16
+Wed, 16 Mar 2022 21:15:16 GMT
+
+### Patches
+
+- Upgrade rushstack dependencies.
 
 ## 3.9.15
 Tue, 25 May 2021 00:12:21 GMT

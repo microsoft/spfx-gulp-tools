@@ -1,6 +1,13 @@
 # Change Log - @microsoft/gulp-core-build-sass
 
-This log was last generated on Tue, 25 May 2021 00:12:21 GMT and should not be manually modified.
+This log was last generated on Wed, 16 Mar 2022 21:15:16 GMT and should not be manually modified.
+
+## 4.15.0
+Wed, 16 Mar 2022 21:15:16 GMT
+
+### Minor changes
+
+- Upgrade Sass to use DartSass.
 
 ## 4.14.22
 Tue, 25 May 2021 00:12:21 GMT

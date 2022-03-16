@@ -1,6 +1,13 @@
 # Change Log - @microsoft/web-library-build
 
-This log was last generated on Sat, 05 Feb 2022 00:42:06 GMT and should not be manually modified.
+This log was last generated on Wed, 16 Mar 2022 21:15:16 GMT and should not be manually modified.
+
+## 7.5.79
+Wed, 16 Mar 2022 21:15:16 GMT
+
+### Patches
+
+- Upgrade rushstack dependencies.
 
 ## 7.5.78
 Sat, 05 Feb 2022 00:42:06 GMT
