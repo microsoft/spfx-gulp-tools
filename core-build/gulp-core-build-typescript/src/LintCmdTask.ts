@@ -3,7 +3,7 @@
 
 import * as path from 'path';
 import { JsonFile, JsonObject } from '@rushstack/node-core-library';
-import * as TRushStackCompiler from '@microsoft/rush-stack-compiler-3.1';
+import * as TRushStackCompiler from '@microsoft/rush-stack-compiler-4.5';
 
 import { RSCTask, IRSCTaskConfig } from './RSCTask';
 
