@@ -710,6 +710,12 @@
       "shouldPublish": true
     },
     {
+      "packageName": "@microsoft/rush-stack-compiler-4.5",
+      "projectFolder": "stack/rush-stack-compiler-4.5",
+      "reviewCategory": "libraries",
+      "shouldPublish": true
+    },
+    {
       "packageName": "@microsoft/rush-stack-compiler-shared",
       "projectFolder": "stack/rush-stack-compiler-shared",
       "reviewCategory": "libraries"
