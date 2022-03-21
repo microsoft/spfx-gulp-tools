@@ -2,8 +2,8 @@
   "changes": [
     {
       "packageName": "@microsoft/gulp-core-build-typescript",
-      "comment": "update to typescript 4.5.5",
-      "type": "major"
+      "comment": "",
+      "type": "none"
     }
   ],
   "packageName": "@microsoft/gulp-core-build-typescript",

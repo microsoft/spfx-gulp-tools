@@ -2,8 +2,8 @@
   "changes": [
     {
       "packageName": "@microsoft/rush-stack-compiler-4.5",
-      "comment": "rushstack compiler for typescript 4.5.5",
-      "type": "major"
+      "comment": "Initial project creation",
+      "type": "minor"
     }
   ],
   "packageName": "@microsoft/rush-stack-compiler-4.5",

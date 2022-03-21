@@ -2,8 +2,8 @@
   "changes": [
     {
       "packageName": "@microsoft/web-library-build",
-      "comment": "update to typescript 4.5.5",
-      "type": "minor"
+      "comment": "",
+      "type": "none"
     }
   ],
   "packageName": "@microsoft/web-library-build",
