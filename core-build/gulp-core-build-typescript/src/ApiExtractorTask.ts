@@ -5,7 +5,7 @@ import * as path from 'path';
 import { IBuildConfig } from '@microsoft/gulp-core-build';
 import { JsonFile, FileSystem, JsonObject } from '@rushstack/node-core-library';
 import { ExtractorConfig, IExtractorInvokeOptions } from '@microsoft/api-extractor';
-import * as TRushStackCompiler from '@microsoft/rush-stack-compiler-3.1';
+import * as TRushStackCompiler from '@microsoft/rush-stack-compiler-4.5';
 
 import { RSCTask, IRSCTaskConfig } from './RSCTask';
 

@@ -544,6 +544,12 @@
       "reviewCategory": "tests",
       "shouldPublish": false
     },
+    {
+      "packageName": "rush-stack-compiler-4.5-library-test",
+      "projectFolder": "build-tests/rush-stack-compiler-4.5-library-test",
+      "reviewCategory": "tests",
+      "shouldPublish": false
+    },
 
     {
       "packageName": "web-library-build-test",
@@ -706,6 +712,12 @@
     {
       "packageName": "@microsoft/rush-stack-compiler-4.2",
       "projectFolder": "stack/rush-stack-compiler-4.2",
+      "reviewCategory": "libraries",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@microsoft/rush-stack-compiler-4.5",
+      "projectFolder": "stack/rush-stack-compiler-4.5",
       "reviewCategory": "libraries",
       "shouldPublish": true
     },
