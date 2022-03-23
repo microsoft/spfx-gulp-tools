@@ -2,6 +2,18 @@
   "name": "@microsoft/gulp-core-build-typescript",
   "entries": [
     {
+      "version": "8.5.28",
+      "tag": "@microsoft/gulp-core-build-typescript_v8.5.28",
+      "date": "Wed, 23 Mar 2022 20:21:06 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@microsoft/rush-stack-compiler-4.5\" to `0.1.0`"
+          }
+        ]
+      }
+    },
+    {
       "version": "8.5.27",
       "tag": "@microsoft/gulp-core-build-typescript_v8.5.27",
       "date": "Wed, 16 Mar 2022 21:15:16 GMT",
