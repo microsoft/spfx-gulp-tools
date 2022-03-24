@@ -1,21 +1,16 @@
-# Change Log - @microsoft/rush-stack-compiler-4.2
+# Change Log - @microsoft/rush-stack-compiler-4.5
 
-This log was last generated on Wed, 16 Mar 2022 21:15:16 GMT and should not be manually modified.
+This log was last generated on Thu, 24 Mar 2022 00:06:19 GMT and should not be manually modified.
 
-## 0.1.2
-Wed, 16 Mar 2022 21:15:16 GMT
+## 0.2.0
+Thu, 24 Mar 2022 00:06:19 GMT
 
-### Patches
+### Minor changes
 
-- Upgrade rushstack dependencies.
-
-## 0.1.1
-Wed, 19 May 2021 00:11:39 GMT
-
-_Version update only_
+- Initial project creation
 
 ## 0.1.0
-Tue, 11 May 2021 22:57:42 GMT
+Thu, 17 Mar 2022 22:57:42 GMT
 
 ### Minor changes
 

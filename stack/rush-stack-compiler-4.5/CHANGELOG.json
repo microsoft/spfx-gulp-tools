@@ -1,6 +1,18 @@
 {
-  "name": "@microsoft/rush-stack-compiler-4.3",
+  "name": "@microsoft/rush-stack-compiler-4.5",
   "entries": [
+    {
+      "version": "0.2.0",
+      "tag": "@microsoft/rush-stack-compiler-4.5_v0.2.0",
+      "date": "Thu, 24 Mar 2022 00:06:19 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Initial project creation"
+          }
+        ]
+      }
+    },
     {
       "version": "0.1.0",
       "tag": "@microsoft/rush-stack-compiler-4.2_v0.1.0",
