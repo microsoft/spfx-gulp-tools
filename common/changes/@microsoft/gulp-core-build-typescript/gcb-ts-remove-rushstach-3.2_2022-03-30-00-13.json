@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@microsoft/gulp-core-build-typescript",
+      "comment": "Update a dependency on RSC-3.2 to point to RSC-4.5.",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@microsoft/gulp-core-build-typescript",
+  "email": "aterentiev@microsoft.com"
+}
