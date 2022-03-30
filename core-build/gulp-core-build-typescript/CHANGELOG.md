@@ -1,6 +1,13 @@
 # Change Log - @microsoft/gulp-core-build-typescript
 
-This log was last generated on Thu, 24 Mar 2022 00:06:19 GMT and should not be manually modified.
+This log was last generated on Wed, 30 Mar 2022 00:28:32 GMT and should not be manually modified.
+
+## 8.5.30
+Wed, 30 Mar 2022 00:28:32 GMT
+
+### Patches
+
+- Update a dependency on RSC-3.2 to point to RSC-4.5.
 
 ## 8.5.29
 Thu, 24 Mar 2022 00:06:19 GMT

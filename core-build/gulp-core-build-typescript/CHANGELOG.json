@@ -2,6 +2,18 @@
   "name": "@microsoft/gulp-core-build-typescript",
   "entries": [
     {
+      "version": "8.5.30",
+      "tag": "@microsoft/gulp-core-build-typescript_v8.5.30",
+      "date": "Wed, 30 Mar 2022 00:28:32 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Update a dependency on RSC-3.2 to point to RSC-4.5."
+          }
+        ]
+      }
+    },
+    {
       "version": "8.5.29",
       "tag": "@microsoft/gulp-core-build-typescript_v8.5.29",
       "date": "Thu, 24 Mar 2022 00:06:19 GMT",
