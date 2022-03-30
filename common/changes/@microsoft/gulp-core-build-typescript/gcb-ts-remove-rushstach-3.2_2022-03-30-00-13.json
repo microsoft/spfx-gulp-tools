@@ -2,7 +2,7 @@
   "changes": [
     {
       "packageName": "@microsoft/gulp-core-build-typescript",
-      "comment": "removing inline dependency on rushstack compiler v3.2",
+      "comment": "Update a dependency on RSC-3.2 to point to RSC-4.5.",
       "type": "patch"
     }
   ],
