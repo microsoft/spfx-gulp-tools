@@ -2,6 +2,21 @@
   "name": "@microsoft/gulp-core-build-webpack",
   "entries": [
     {
+      "version": "5.2.26",
+      "tag": "@microsoft/gulp-core-build-webpack_v5.2.26",
+      "date": "Thu, 28 Apr 2022 00:07:52 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@microsoft/gulp-core-build\" to `3.17.19`"
+          },
+          {
+            "comment": "Updating dependency \"@microsoft/node-library-build\" to `6.5.31`"
+          }
+        ]
+      }
+    },
+    {
       "version": "5.2.25",
       "tag": "@microsoft/gulp-core-build-webpack_v5.2.25",
       "date": "Wed, 30 Mar 2022 00:28:32 GMT",

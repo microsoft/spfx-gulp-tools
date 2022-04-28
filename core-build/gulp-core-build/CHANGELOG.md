@@ -1,6 +1,13 @@
 # Change Log - @microsoft/gulp-core-build
 
-This log was last generated on Wed, 16 Mar 2022 21:15:16 GMT and should not be manually modified.
+This log was last generated on Thu, 28 Apr 2022 00:07:52 GMT and should not be manually modified.
+
+## 3.17.19
+Thu, 28 Apr 2022 00:07:52 GMT
+
+### Patches
+
+- Bump node-notifier to 8.0.2
 
 ## 3.17.18
 Wed, 16 Mar 2022 21:15:16 GMT

@@ -2,6 +2,18 @@
   "name": "@microsoft/gulp-core-build",
   "entries": [
     {
+      "version": "3.17.19",
+      "tag": "@microsoft/gulp-core-build_v3.17.19",
+      "date": "Thu, 28 Apr 2022 00:07:52 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Bump node-notifier to 8.0.2"
+          }
+        ]
+      }
+    },
+    {
       "version": "3.17.18",
       "tag": "@microsoft/gulp-core-build_v3.17.18",
       "date": "Wed, 16 Mar 2022 21:15:16 GMT",
