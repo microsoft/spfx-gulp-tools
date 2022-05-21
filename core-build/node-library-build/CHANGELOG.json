@@ -2,6 +2,18 @@
   "name": "@microsoft/node-library-build",
   "entries": [
     {
+      "version": "6.5.32",
+      "tag": "@microsoft/node-library-build_v6.5.32",
+      "date": "Sat, 21 May 2022 05:34:52 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@microsoft/gulp-core-build-typescript\" to `8.5.32`"
+          }
+        ]
+      }
+    },
+    {
       "version": "6.5.31",
       "tag": "@microsoft/node-library-build_v6.5.31",
       "date": "Thu, 28 Apr 2022 00:07:52 GMT",
