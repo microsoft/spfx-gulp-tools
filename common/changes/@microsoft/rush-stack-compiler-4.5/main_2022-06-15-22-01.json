@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@microsoft/rush-stack-compiler-4.5",
+      "comment": "version of eslint has been update to 8.7.0",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@microsoft/rush-stack-compiler-4.5",
+  "email": "17036219+AJIXuMuK@users.noreply.github.com"
+}
