@@ -2,6 +2,18 @@
   "name": "@microsoft/gulp-core-build-sass",
   "entries": [
     {
+      "version": "4.15.6",
+      "tag": "@microsoft/gulp-core-build-sass_v4.15.6",
+      "date": "Thu, 16 Jun 2022 00:05:09 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@microsoft/node-library-build\" to `6.5.33`"
+          }
+        ]
+      }
+    },
+    {
       "version": "4.15.5",
       "tag": "@microsoft/gulp-core-build-sass_v4.15.5",
       "date": "Sat, 21 May 2022 05:34:52 GMT",

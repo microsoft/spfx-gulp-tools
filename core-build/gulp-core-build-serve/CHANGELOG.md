@@ -1,6 +1,11 @@
 # Change Log - @microsoft/gulp-core-build-serve
 
-This log was last generated on Sat, 21 May 2022 05:34:52 GMT and should not be manually modified.
+This log was last generated on Thu, 16 Jun 2022 00:05:09 GMT and should not be manually modified.
+
+## 3.9.22
+Thu, 16 Jun 2022 00:05:09 GMT
+
+_Version update only_
 
 ## 3.9.21
 Sat, 21 May 2022 05:34:52 GMT
