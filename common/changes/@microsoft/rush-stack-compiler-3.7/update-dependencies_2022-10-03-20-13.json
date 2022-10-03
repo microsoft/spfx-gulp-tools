@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@microsoft/rush-stack-compiler-3.7",
+      "comment": "Update the @rushstack/node-core-library and @rushstack/eslint-config dependencies.",
+      "type": "minor"
+    }
+  ],
+  "packageName": "@microsoft/rush-stack-compiler-3.7"
+}
