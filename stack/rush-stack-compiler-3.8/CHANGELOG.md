@@ -1,6 +1,13 @@
 # Change Log - @microsoft/rush-stack-compiler-3.8
 
-This log was last generated on Wed, 16 Mar 2022 21:15:16 GMT and should not be manually modified.
+This log was last generated on Mon, 03 Oct 2022 21:28:25 GMT and should not be manually modified.
+
+## 0.5.0
+Mon, 03 Oct 2022 21:28:25 GMT
+
+### Minor changes
+
+- Update the @rushstack/node-core-library and @rushstack/eslint-config dependencies.
 
 ## 0.4.48
 Wed, 16 Mar 2022 21:15:16 GMT

@@ -2,6 +2,23 @@
   "name": "@microsoft/rush-stack-compiler-4.5",
   "entries": [
     {
+      "version": "0.3.0",
+      "tag": "@microsoft/rush-stack-compiler-4.5_v0.3.0",
+      "date": "Mon, 03 Oct 2022 21:28:25 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Update the @rushstack/node-core-library and @rushstack/eslint-config dependencies."
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@microsoft/rush-stack-compiler-3.9\" to `0.5.0`"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.2.2",
       "tag": "@microsoft/rush-stack-compiler-4.5_v0.2.2",
       "date": "Thu, 16 Jun 2022 00:05:09 GMT",

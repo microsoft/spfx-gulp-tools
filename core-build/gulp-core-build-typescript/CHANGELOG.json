@@ -2,6 +2,26 @@
   "name": "@microsoft/gulp-core-build-typescript",
   "entries": [
     {
+      "version": "8.5.34",
+      "tag": "@microsoft/gulp-core-build-typescript_v8.5.34",
+      "date": "Mon, 03 Oct 2022 21:28:25 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Update the @rushstack/node-core-library dependency."
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@microsoft/gulp-core-build\" to `3.17.20`"
+          },
+          {
+            "comment": "Updating dependency \"@microsoft/rush-stack-compiler-4.5\" to `0.3.0`"
+          }
+        ]
+      }
+    },
+    {
       "version": "8.5.33",
       "tag": "@microsoft/gulp-core-build-typescript_v8.5.33",
       "date": "Thu, 16 Jun 2022 00:05:09 GMT",

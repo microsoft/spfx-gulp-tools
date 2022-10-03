@@ -1,6 +1,13 @@
 # Change Log - @microsoft/gulp-core-build-mocha
 
-This log was last generated on Thu, 28 Apr 2022 00:07:52 GMT and should not be manually modified.
+This log was last generated on Mon, 03 Oct 2022 21:28:25 GMT and should not be manually modified.
+
+## 3.9.20
+Mon, 03 Oct 2022 21:28:25 GMT
+
+### Patches
+
+- Update the @rushstack/node-core-library dependency.
 
 ## 3.9.19
 Thu, 28 Apr 2022 00:07:52 GMT
