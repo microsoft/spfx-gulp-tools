@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@microsoft/node-library-build",
+      "comment": "",
+      "type": "none"
+    }
+  ],
+  "packageName": "@microsoft/node-library-build"
+}
