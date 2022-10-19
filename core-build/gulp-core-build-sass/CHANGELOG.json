@@ -2,6 +2,18 @@
   "name": "@microsoft/gulp-core-build-sass",
   "entries": [
     {
+      "version": "4.16.0",
+      "tag": "@microsoft/gulp-core-build-sass_v4.16.0",
+      "date": "Wed, 19 Oct 2022 17:40:05 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Add a `quietDeps` sass config option that silences compiler warnings from dependencies."
+          }
+        ]
+      }
+    },
+    {
       "version": "4.15.7",
       "tag": "@microsoft/gulp-core-build-sass_v4.15.7",
       "date": "Mon, 03 Oct 2022 21:28:25 GMT",

@@ -1,6 +1,13 @@
 # Change Log - @microsoft/gulp-core-build-sass
 
-This log was last generated on Mon, 03 Oct 2022 21:28:25 GMT and should not be manually modified.
+This log was last generated on Wed, 19 Oct 2022 17:40:05 GMT and should not be manually modified.
+
+## 4.16.0
+Wed, 19 Oct 2022 17:40:05 GMT
+
+### Minor changes
+
+- Add a `quietDeps` sass config option that silences compiler warnings from dependencies.
 
 ## 4.15.7
 Mon, 03 Oct 2022 21:28:25 GMT
