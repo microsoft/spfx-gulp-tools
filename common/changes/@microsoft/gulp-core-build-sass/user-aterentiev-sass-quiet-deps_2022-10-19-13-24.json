@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@microsoft/gulp-core-build-sass",
+      "comment": "Add a `quietDeps` sass config option that silences compiler warnings from dependencies.",
+      "type": "minor"
+    }
+  ],
+  "packageName": "@microsoft/gulp-core-build-sass"
+}
