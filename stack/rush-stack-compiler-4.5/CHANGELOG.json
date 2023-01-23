@@ -2,6 +2,18 @@
   "name": "@microsoft/rush-stack-compiler-4.5",
   "entries": [
     {
+      "version": "0.4.0",
+      "tag": "@microsoft/rush-stack-compiler-4.5_v0.4.0",
+      "date": "Mon, 23 Jan 2023 20:34:42 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Mark eslint as a peer dependency."
+          }
+        ]
+      }
+    },
+    {
       "version": "0.3.0",
       "tag": "@microsoft/rush-stack-compiler-4.5_v0.3.0",
       "date": "Mon, 03 Oct 2022 21:28:25 GMT",

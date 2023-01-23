@@ -1,6 +1,13 @@
 # Change Log - @microsoft/rush-stack-compiler-4.5
 
-This log was last generated on Mon, 03 Oct 2022 21:28:25 GMT and should not be manually modified.
+This log was last generated on Mon, 23 Jan 2023 20:34:42 GMT and should not be manually modified.
+
+## 0.4.0
+Mon, 23 Jan 2023 20:34:42 GMT
+
+### Minor changes
+
+- Mark eslint as a peer dependency.
 
 ## 0.3.0
 Mon, 03 Oct 2022 21:28:25 GMT
