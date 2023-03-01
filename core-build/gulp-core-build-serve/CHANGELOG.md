@@ -1,6 +1,13 @@
 # Change Log - @microsoft/gulp-core-build-serve
 
-This log was last generated on Mon, 23 Jan 2023 20:34:43 GMT and should not be manually modified.
+This log was last generated on Wed, 01 Mar 2023 23:45:05 GMT and should not be manually modified.
+
+## 3.10.0
+Wed, 01 Mar 2023 23:45:05 GMT
+
+### Minor changes
+
+- Update gulp-connect to ~5.7.0 because of a vulnerability in the "qs" dependency.
 
 ## 3.9.24
 Mon, 23 Jan 2023 20:34:43 GMT

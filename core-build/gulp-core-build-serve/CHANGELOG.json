@@ -2,6 +2,18 @@
   "name": "@microsoft/gulp-core-build-serve",
   "entries": [
     {
+      "version": "3.10.0",
+      "tag": "@microsoft/gulp-core-build-serve_v3.10.0",
+      "date": "Wed, 01 Mar 2023 23:45:05 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Update gulp-connect to ~5.7.0 because of a vulnerability in the \"qs\" dependency."
+          }
+        ]
+      }
+    },
+    {
       "version": "3.9.24",
       "tag": "@microsoft/gulp-core-build-serve_v3.9.24",
       "date": "Mon, 23 Jan 2023 20:34:43 GMT",
