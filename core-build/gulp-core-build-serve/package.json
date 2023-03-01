@@ -20,7 +20,7 @@
     "colors": "~1.2.1",
     "express": "~4.16.2",
     "gulp": "~4.0.2",
-    "gulp-connect": "~5.5.0",
+    "gulp-connect": "~5.7.0",
     "gulp-open": "~3.0.1",
     "sudo": "~1.0.3"
   },
