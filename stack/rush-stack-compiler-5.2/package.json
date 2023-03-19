@@ -1,0 +1,39 @@
+{
+  "name": "@microsoft/rush-stack-compiler-5.2",
+  "version": "0.4.0",
+  "description": "A plug-in for selecting the compiler used with the @microsoft/rush-stack toolchain. This version selects TypeScript 5.2.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microsoft/rushstack-legacy/tree/master/stack/rush-stack-compiler-4.5"
+  },
+  "bin": {
+    "rush-api-extractor": "./bin/rush-api-extractor",
+    "rush-eslint": "./bin/rush-eslint",
+    "rush-tsc": "./bin/rush-tsc",
+    "rush-tslint": "./bin/rush-tslint"
+  },
+  "scripts": {
+    "build": "heft build --clean"
+  },
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "dependencies": {
+    "@microsoft/api-extractor": "~7.15.2",
+    "@rushstack/eslint-config": "~3.1.0",
+    "@rushstack/node-core-library": "~3.53.0",
+    "@types/node": "10.17.13",
+    "import-lazy": "~4.0.0",
+    "typescript": "~5.2.0"
+  },
+  "devDependencies": {
+    "@microsoft/rush-stack-compiler-3.9": "workspace:*",
+    "@microsoft/rush-stack-compiler-shared": "workspace:*",
+    "@rushstack/eslint-config": "~3.1.0",
+    "@rushstack/heft": "0.48.0",
+    "@rushstack/heft-node-rig": "1.11.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.7.0"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "name": "@microsoft/rush-stack-compiler-5.2",
+  "entries": [
+    {
+      "version": "0.4.0",
+      "tag": "@microsoft/rush-stack-compiler-4.5_v0.4.0",
+      "date": "Mon, 23 Jan 2023 20:34:42 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Mark eslint as a peer dependency."
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.3.0",
+      "tag": "@microsoft/rush-stack-compiler-4.5_v0.3.0",
+      "date": "Mon, 03 Oct 2022 21:28:25 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Update the @rushstack/node-core-library and @rushstack/eslint-config dependencies."
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@microsoft/rush-stack-compiler-3.9\" to `0.5.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.2.2",
+      "tag": "@microsoft/rush-stack-compiler-4.5_v0.2.2",
+      "date": "Thu, 16 Jun 2022 00:05:09 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "version of eslint has been update to 8.7.0"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.2.1",
+      "tag": "@microsoft/rush-stack-compiler-4.5_v0.2.1",
+      "date": "Sat, 21 May 2022 05:34:52 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fix an incorrect version in the README."
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.2.0",
+      "tag": "@microsoft/rush-stack-compiler-4.5_v0.2.0",
+      "date": "Thu, 24 Mar 2022 00:06:19 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Initial project creation"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.0",
+      "tag": "@microsoft/rush-stack-compiler-4.2_v0.1.0",
+      "date": "Thu, 17 Mar 2022 22:57:42 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Initial package creation."
+          }
+        ]
+      }
+    }
+  ]
+}
