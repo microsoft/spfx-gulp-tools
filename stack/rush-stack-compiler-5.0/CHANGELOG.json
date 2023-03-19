@@ -1,5 +1,5 @@
 {
-  "name": "@microsoft/rush-stack-compiler-5.2",
+  "name": "@microsoft/rush-stack-compiler-5.0",
   "entries": [
     {
       "version": "0.4.0",
