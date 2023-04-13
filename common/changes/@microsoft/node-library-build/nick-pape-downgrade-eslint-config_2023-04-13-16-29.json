@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@microsoft/node-library-build",
+      "comment": "Downgrade eslint-config to resolve typescript compiler peer dependency issue.",
+      "type": "minor"
+    }
+  ],
+  "packageName": "@microsoft/node-library-build"
+}
