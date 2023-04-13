@@ -20,7 +20,7 @@
   "typings": "lib/index.d.ts",
   "dependencies": {
     "@microsoft/api-extractor": "~7.15.2",
-    "@rushstack/eslint-config": "~3.1.0",
+    "@rushstack/eslint-config": "~2.6.2",
     "@rushstack/node-core-library": "~3.53.0",
     "@types/node": "10.17.13",
     "eslint": "~7.12.1",
@@ -30,7 +30,7 @@
   "devDependencies": {
     "@microsoft/rush-stack-compiler-3.9": "workspace:*",
     "@microsoft/rush-stack-compiler-shared": "workspace:*",
-    "@rushstack/eslint-config": "~3.1.0",
+    "@rushstack/eslint-config": "~2.6.2",
     "@rushstack/heft": "0.48.0",
     "@rushstack/heft-node-rig": "1.11.0"
   }
