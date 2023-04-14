@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@microsoft/rush-stack-compiler-3.8",
+      "comment": "Downgrade eslint-config to resolve typescript compiler peer dependency issue.",
+      "type": "minor"
+    }
+  ],
+  "packageName": "@microsoft/rush-stack-compiler-3.8"
+}
