@@ -2,6 +2,26 @@
   "name": "@microsoft/gulp-core-build-typescript",
   "entries": [
     {
+      "version": "8.6.0",
+      "tag": "@microsoft/gulp-core-build-typescript_v8.6.0",
+      "date": "Sat, 15 Apr 2023 00:06:09 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Downgrade eslint-config to resolve typescript compiler peer dependency issue."
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@microsoft/gulp-core-build\" to `3.18.0`"
+          },
+          {
+            "comment": "Updating dependency \"@microsoft/rush-stack-compiler-4.5\" to `0.5.0`"
+          }
+        ]
+      }
+    },
+    {
       "version": "8.5.35",
       "tag": "@microsoft/gulp-core-build-typescript_v8.5.35",
       "date": "Mon, 23 Jan 2023 20:34:42 GMT",

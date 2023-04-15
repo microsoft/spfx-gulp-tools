@@ -1,6 +1,13 @@
 # Change Log - @microsoft/rush-stack-compiler-3.8
 
-This log was last generated on Mon, 03 Oct 2022 21:28:25 GMT and should not be manually modified.
+This log was last generated on Sat, 15 Apr 2023 00:06:09 GMT and should not be manually modified.
+
+## 0.6.0
+Sat, 15 Apr 2023 00:06:09 GMT
+
+### Minor changes
+
+- Downgrade eslint-config to resolve typescript compiler peer dependency issue.
 
 ## 0.5.0
 Mon, 03 Oct 2022 21:28:25 GMT

@@ -2,6 +2,41 @@
   "name": "@microsoft/web-library-build",
   "entries": [
     {
+      "version": "7.6.0",
+      "tag": "@microsoft/web-library-build_v7.6.0",
+      "date": "Sat, 15 Apr 2023 00:06:10 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Downgrade eslint-config to resolve typescript compiler peer dependency issue."
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@microsoft/gulp-core-build\" to `3.18.0`"
+          },
+          {
+            "comment": "Updating dependency \"@microsoft/gulp-core-build-sass\" to `4.17.0`"
+          },
+          {
+            "comment": "Updating dependency \"@microsoft/gulp-core-build-serve\" to `3.11.0`"
+          },
+          {
+            "comment": "Updating dependency \"@microsoft/gulp-core-build-typescript\" to `8.6.0`"
+          },
+          {
+            "comment": "Updating dependency \"@microsoft/gulp-core-build-webpack\" to `5.3.0`"
+          },
+          {
+            "comment": "Updating dependency \"@microsoft/node-library-build\" to `6.6.0`"
+          },
+          {
+            "comment": "Updating dependency \"@microsoft/rush-stack-compiler-4.5\" to `0.5.0`"
+          }
+        ]
+      }
+    },
+    {
       "version": "7.5.89",
       "tag": "@microsoft/web-library-build_v7.5.89",
       "date": "Wed, 01 Mar 2023 23:45:05 GMT",

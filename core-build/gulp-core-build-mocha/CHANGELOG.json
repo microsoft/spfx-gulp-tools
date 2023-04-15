@@ -2,6 +2,23 @@
   "name": "@microsoft/gulp-core-build-mocha",
   "entries": [
     {
+      "version": "3.10.0",
+      "tag": "@microsoft/gulp-core-build-mocha_v3.10.0",
+      "date": "Sat, 15 Apr 2023 00:06:09 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Downgrade eslint-config to resolve typescript compiler peer dependency issue."
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@microsoft/gulp-core-build\" to `3.18.0`"
+          }
+        ]
+      }
+    },
+    {
       "version": "3.9.20",
       "tag": "@microsoft/gulp-core-build-mocha_v3.9.20",
       "date": "Mon, 03 Oct 2022 21:28:25 GMT",

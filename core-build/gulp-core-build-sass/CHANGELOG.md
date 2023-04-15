@@ -1,6 +1,13 @@
 # Change Log - @microsoft/gulp-core-build-sass
 
-This log was last generated on Mon, 23 Jan 2023 20:34:43 GMT and should not be manually modified.
+This log was last generated on Sat, 15 Apr 2023 00:06:09 GMT and should not be manually modified.
+
+## 4.17.0
+Sat, 15 Apr 2023 00:06:09 GMT
+
+### Minor changes
+
+- Downgrade eslint-config to resolve typescript compiler peer dependency issue.
 
 ## 4.16.1
 Mon, 23 Jan 2023 20:34:43 GMT

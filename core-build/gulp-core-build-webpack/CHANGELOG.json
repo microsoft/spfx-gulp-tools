@@ -2,6 +2,29 @@
   "name": "@microsoft/gulp-core-build-webpack",
   "entries": [
     {
+      "version": "5.3.0",
+      "tag": "@microsoft/gulp-core-build-webpack_v5.3.0",
+      "date": "Sat, 15 Apr 2023 00:06:09 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Downgrade eslint-config to resolve typescript compiler peer dependency issue."
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@microsoft/gulp-core-build\" to `3.18.0`"
+          },
+          {
+            "comment": "Updating dependency \"@microsoft/node-library-build\" to `6.6.0`"
+          },
+          {
+            "comment": "Updating dependency \"@microsoft/rush-stack-compiler-3.9\" to `0.6.0`"
+          }
+        ]
+      }
+    },
+    {
       "version": "5.2.30",
       "tag": "@microsoft/gulp-core-build-webpack_v5.2.30",
       "date": "Mon, 23 Jan 2023 20:34:43 GMT",

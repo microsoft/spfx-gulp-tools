@@ -2,6 +2,32 @@
   "name": "@microsoft/node-library-build",
   "entries": [
     {
+      "version": "6.6.0",
+      "tag": "@microsoft/node-library-build_v6.6.0",
+      "date": "Sat, 15 Apr 2023 00:06:09 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Downgrade eslint-config to resolve typescript compiler peer dependency issue."
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@microsoft/gulp-core-build\" to `3.18.0`"
+          },
+          {
+            "comment": "Updating dependency \"@microsoft/gulp-core-build-mocha\" to `3.10.0`"
+          },
+          {
+            "comment": "Updating dependency \"@microsoft/gulp-core-build-typescript\" to `8.6.0`"
+          },
+          {
+            "comment": "Updating dependency \"@microsoft/rush-stack-compiler-3.9\" to `0.6.0`"
+          }
+        ]
+      }
+    },
+    {
       "version": "6.5.35",
       "tag": "@microsoft/node-library-build_v6.5.35",
       "date": "Mon, 23 Jan 2023 20:34:42 GMT",

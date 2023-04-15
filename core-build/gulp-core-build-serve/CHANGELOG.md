@@ -1,6 +1,13 @@
 # Change Log - @microsoft/gulp-core-build-serve
 
-This log was last generated on Wed, 01 Mar 2023 23:45:05 GMT and should not be manually modified.
+This log was last generated on Sat, 15 Apr 2023 00:06:09 GMT and should not be manually modified.
+
+## 3.11.0
+Sat, 15 Apr 2023 00:06:09 GMT
+
+### Minor changes
+
+- Downgrade eslint-config to resolve typescript compiler peer dependency issue.
 
 ## 3.10.0
 Wed, 01 Mar 2023 23:45:05 GMT
