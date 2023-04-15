@@ -4,6 +4,8 @@
 
 ```ts
 
+/// <reference types="node" />
+
 import { CopyTask } from '@microsoft/gulp-core-build';
 import { GenerateShrinkwrapTask } from '@microsoft/gulp-core-build';
 import { GulpTask } from '@microsoft/gulp-core-build';
@@ -27,7 +29,7 @@ export const generateShrinkwrapTask: GenerateShrinkwrapTask;
 export const postCopy: CopyTask;
 
 // Warning: (ae-forgotten-export) The symbol "PostProcessSourceMaps" needs to be exported by the entry point index.d.ts
-// 
+//
 // @public (undocumented)
 export const postProcessSourceMapsTask: PostProcessSourceMaps;
 

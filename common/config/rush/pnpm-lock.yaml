@@ -567,7 +567,7 @@ importers:
 
   ../../core-build/gulp-core-build-typescript:
     specifiers:
-      '@microsoft/api-extractor': ~7.15.2
+      '@microsoft/api-extractor': ~7.22.2
       '@microsoft/gulp-core-build': workspace:*
       '@microsoft/node-library-build': 6.5.21
       '@microsoft/rush-stack-compiler-4.5': workspace:*
@@ -592,7 +592,7 @@ importers:
       glob-escape: 0.0.2
       resolve: 1.17.0
     devDependencies:
-      '@microsoft/api-extractor': 7.15.2
+      '@microsoft/api-extractor': 7.22.2
       '@microsoft/node-library-build': 6.5.21
       '@microsoft/rush-stack-compiler-4.5': link:../../stack/rush-stack-compiler-4.5
       '@rushstack/eslint-config': 2.6.2_eslint@7.12.1
@@ -695,7 +695,7 @@ importers:
 
   ../../stack/rush-stack-compiler-2.4:
     specifiers:
-      '@microsoft/api-extractor': ~7.15.2
+      '@microsoft/api-extractor': ~7.22.2
       '@microsoft/rush-stack-compiler-3.9': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
@@ -726,7 +726,7 @@ importers:
 
   ../../stack/rush-stack-compiler-2.7:
     specifiers:
-      '@microsoft/api-extractor': ~7.15.2
+      '@microsoft/api-extractor': ~7.22.2
       '@microsoft/rush-stack-compiler-3.9': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
@@ -757,7 +757,7 @@ importers:
 
   ../../stack/rush-stack-compiler-2.8:
     specifiers:
-      '@microsoft/api-extractor': ~7.15.2
+      '@microsoft/api-extractor': ~7.22.2
       '@microsoft/rush-stack-compiler-3.9': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
@@ -788,7 +788,7 @@ importers:
 
   ../../stack/rush-stack-compiler-2.9:
     specifiers:
-      '@microsoft/api-extractor': ~7.15.2
+      '@microsoft/api-extractor': ~7.22.2
       '@microsoft/rush-stack-compiler-3.9': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
@@ -819,7 +819,7 @@ importers:
 
   ../../stack/rush-stack-compiler-3.0:
     specifiers:
-      '@microsoft/api-extractor': ~7.15.2
+      '@microsoft/api-extractor': ~7.22.2
       '@microsoft/rush-stack-compiler-3.9': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
@@ -850,7 +850,7 @@ importers:
 
   ../../stack/rush-stack-compiler-3.1:
     specifiers:
-      '@microsoft/api-extractor': ~7.15.2
+      '@microsoft/api-extractor': ~7.22.2
       '@microsoft/rush-stack-compiler-3.9': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
@@ -881,7 +881,7 @@ importers:
 
   ../../stack/rush-stack-compiler-3.2:
     specifiers:
-      '@microsoft/api-extractor': ~7.15.2
+      '@microsoft/api-extractor': ~7.22.2
       '@microsoft/rush-stack-compiler-3.9': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
@@ -912,7 +912,7 @@ importers:
 
   ../../stack/rush-stack-compiler-3.3:
     specifiers:
-      '@microsoft/api-extractor': ~7.15.2
+      '@microsoft/api-extractor': ~7.22.2
       '@microsoft/rush-stack-compiler-3.9': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
@@ -943,7 +943,7 @@ importers:
 
   ../../stack/rush-stack-compiler-3.4:
     specifiers:
-      '@microsoft/api-extractor': ~7.15.2
+      '@microsoft/api-extractor': ~7.22.2
       '@microsoft/rush-stack-compiler-3.9': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
@@ -974,7 +974,7 @@ importers:
 
   ../../stack/rush-stack-compiler-3.5:
     specifiers:
-      '@microsoft/api-extractor': ~7.15.2
+      '@microsoft/api-extractor': ~7.22.2
       '@microsoft/rush-stack-compiler-3.9': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
@@ -1005,7 +1005,7 @@ importers:
 
   ../../stack/rush-stack-compiler-3.6:
     specifiers:
-      '@microsoft/api-extractor': ~7.15.2
+      '@microsoft/api-extractor': ~7.22.2
       '@microsoft/rush-stack-compiler-3.9': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
@@ -1036,7 +1036,7 @@ importers:
 
   ../../stack/rush-stack-compiler-3.7:
     specifiers:
-      '@microsoft/api-extractor': ~7.15.2
+      '@microsoft/api-extractor': ~7.22.2
       '@microsoft/rush-stack-compiler-3.9': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
@@ -1067,7 +1067,7 @@ importers:
 
   ../../stack/rush-stack-compiler-3.8:
     specifiers:
-      '@microsoft/api-extractor': ~7.15.2
+      '@microsoft/api-extractor': ~7.22.2
       '@microsoft/rush-stack-compiler-3.9': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
@@ -1098,7 +1098,7 @@ importers:
 
   ../../stack/rush-stack-compiler-3.9:
     specifiers:
-      '@microsoft/api-extractor': ~7.15.2
+      '@microsoft/api-extractor': ~7.22.2
       '@microsoft/rush-stack-compiler-3.9': 0.4.42
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
@@ -1129,7 +1129,7 @@ importers:
 
   ../../stack/rush-stack-compiler-4.0:
     specifiers:
-      '@microsoft/api-extractor': ~7.15.2
+      '@microsoft/api-extractor': ~7.22.2
       '@microsoft/rush-stack-compiler-3.9': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
@@ -1156,7 +1156,7 @@ importers:
 
   ../../stack/rush-stack-compiler-4.1:
     specifiers:
-      '@microsoft/api-extractor': ~7.15.2
+      '@microsoft/api-extractor': ~7.22.2
       '@microsoft/rush-stack-compiler-3.9': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
@@ -1183,7 +1183,7 @@ importers:
 
   ../../stack/rush-stack-compiler-4.2:
     specifiers:
-      '@microsoft/api-extractor': ~7.15.2
+      '@microsoft/api-extractor': ~7.22.2
       '@microsoft/rush-stack-compiler-3.9': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
@@ -1210,7 +1210,7 @@ importers:
 
   ../../stack/rush-stack-compiler-4.5:
     specifiers:
-      '@microsoft/api-extractor': ~7.15.2
+      '@microsoft/api-extractor': ~7.22.2
       '@microsoft/rush-stack-compiler-3.9': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
@@ -1986,12 +1986,12 @@ packages:
       '@rushstack/node-core-library': 3.36.1
     dev: true
 
-  /@microsoft/api-extractor-model/7.13.2:
-    resolution: {integrity: sha512-gA9Q8q5TPM2YYk7rLinAv9KqcodrmRC13BVmNzLswjtFxpz13lRh0BmrqD01/sddGpGMIuWFYlfUM4VSWxnggA==}
+  /@microsoft/api-extractor-model/7.17.1:
+    resolution: {integrity: sha512-DCDtD8TdEpNk2lW4JvXgwwpxKy70P0JLad55iahwO8A+C63KYsrHIpAzo0FUauh5pwJ0v5QVNIJ+OBgKGteemg==}
     dependencies:
-      '@microsoft/tsdoc': 0.13.2
-      '@microsoft/tsdoc-config': 0.15.2
-      '@rushstack/node-core-library': 3.38.0
+      '@microsoft/tsdoc': 0.14.1
+      '@microsoft/tsdoc-config': 0.16.2
+      '@rushstack/node-core-library': 3.45.3
 
   /@microsoft/api-extractor-model/7.24.3:
     resolution: {integrity: sha512-JElpLULqYDXQb0YIKKQhOJaNWBXsYeYu5J51Z4O6RGbOq7Tby9ViVfpDuXVXa87AMOSR5WKuaxG/5SnQVVNxiw==}
@@ -2018,22 +2018,22 @@ packages:
       typescript: 4.1.5
     dev: true
 
-  /@microsoft/api-extractor/7.15.2:
-    resolution: {integrity: sha512-/Y/n+QOc1vM6Vg3OAUByT/wXdZciE7jV3ay33+vxl3aKva5cNsuOauL14T7XQWUiLko3ilPwrcnFcEjzXpLsuA==}
+  /@microsoft/api-extractor/7.22.2:
+    resolution: {integrity: sha512-G7vXz6UHz+qoaUGPf2k5Md4bSpHii9nFys3sIe3bmFUbmhAe+HfSB/dCn1PsLhW7tZfEXwMHTj7fbL5vcZkrEw==}
     hasBin: true
     dependencies:
-      '@microsoft/api-extractor-model': 7.13.2
-      '@microsoft/tsdoc': 0.13.2
-      '@microsoft/tsdoc-config': 0.15.2
-      '@rushstack/node-core-library': 3.38.0
-      '@rushstack/rig-package': 0.2.12
-      '@rushstack/ts-command-line': 4.7.10
+      '@microsoft/api-extractor-model': 7.17.1
+      '@microsoft/tsdoc': 0.14.1
+      '@microsoft/tsdoc-config': 0.16.2
+      '@rushstack/node-core-library': 3.45.3
+      '@rushstack/rig-package': 0.3.10
+      '@rushstack/ts-command-line': 4.10.9
       colors: 1.2.5
       lodash: 4.17.21
       resolve: 1.17.0
-      semver: 7.3.5
+      semver: 7.3.7
       source-map: 0.6.1
-      typescript: 4.2.4
+      typescript: 4.5.5
 
   /@microsoft/api-extractor/7.32.0:
     resolution: {integrity: sha512-BfvPpeVzWLFTdairVItzWQGsZr82fR4RH+8Q4I7t0f9xq66v4Qz9K+u25jbL5R42X01b/vvJMuRhX5KhU8J1Ug==}
@@ -2178,6 +2178,7 @@ packages:
       ajv: 6.12.6
       jju: 1.4.0
       resolve: 1.19.0
+    dev: true
 
   /@microsoft/tsdoc-config/0.16.2:
     resolution: {integrity: sha512-OGiIzzoBLgWWR0UdRJX98oYO+XKGf7tiK4Zk6tQ/E4IJqGCe7dvkTvgDZV5cFJUzLGDOjeAXrnZoA6QkVySuxw==}
@@ -2193,10 +2194,10 @@ packages:
 
   /@microsoft/tsdoc/0.13.2:
     resolution: {integrity: sha512-WrHvO8PDL8wd8T2+zBGKrMwVL5IyzR3ryWUsl0PXgEV0QHup4mTLi0QcATefGI6Gx9Anu7vthPyyyLpY0EpiQg==}
+    dev: true
 
   /@microsoft/tsdoc/0.14.1:
     resolution: {integrity: sha512-6Wci+Tp3CgPt/B9B0a3J4s3yMgLNSku6w5TV6mN+61C71UqsRBv2FUibBf3tPGlNxebgPHMEUzKpb1ggE8KCKw==}
-    dev: true
 
   /@microsoft/tsdoc/0.14.2:
     resolution: {integrity: sha512-9b8mPpKrfeGRuhFH5iO1iwCLeIIsV6+H1sRfxbkoGXIyQE2BTsPd9zqSqQJ+pv5sJ/hT5M1zvOFL02MnEezFug==}
@@ -2498,19 +2499,6 @@ packages:
       z-schema: 3.18.4
     dev: true
 
-  /@rushstack/node-core-library/3.38.0:
-    resolution: {integrity: sha512-cmvl0yQx8sSmbuXwiRYJi8TO+jpTtrLJQ8UmFHhKvgPVJAW8cV8dnpD1Xx/BvTGrJZ2XtRAIkAhBS9okBnap4w==}
-    dependencies:
-      '@types/node': 10.17.13
-      colors: 1.2.5
-      fs-extra: 7.0.1
-      import-lazy: 4.0.0
-      jju: 1.4.0
-      resolve: 1.17.0
-      semver: 7.3.5
-      timsort: 0.3.0
-      z-schema: 3.18.4
-
   /@rushstack/node-core-library/3.44.1:
     resolution: {integrity: sha512-qK2BKuRoy6Vh83qjXxilafsUJ1soXzEX0rtkxmAC+GsKOdEVav74Df5859bvY2Ap0JNnYfGfXukX/8o3vqODyw==}
     dependencies:
@@ -2524,6 +2512,19 @@ packages:
       timsort: 0.3.0
       z-schema: 3.18.4
     dev: false
+
+  /@rushstack/node-core-library/3.45.3:
+    resolution: {integrity: sha512-Rn0mxqC3MPb+YbvaeFcRWfcYHLwyZ99/ffYA8chpq5OpqoY+Mr1ycTbMvzl5AxWf1pYmi/2+Eo3iTOsQdYR8xw==}
+    dependencies:
+      '@types/node': 12.20.24
+      colors: 1.2.5
+      fs-extra: 7.0.1
+      import-lazy: 4.0.0
+      jju: 1.4.0
+      resolve: 1.17.0
+      semver: 7.3.7
+      timsort: 0.3.0
+      z-schema: 5.0.4
 
   /@rushstack/node-core-library/3.53.0:
     resolution: {integrity: sha512-FXk3eDtTHKnaUq+fLyNY867ioRhMa6CJDJO5hZ3wuGlxm184nckAFiU+hx027AodjpnqjX6pYF0zZGq7k7P/vg==}
@@ -2544,8 +2545,8 @@ packages:
       strip-json-comments: 3.1.1
     dev: true
 
-  /@rushstack/rig-package/0.2.12:
-    resolution: {integrity: sha512-nbePcvF8hQwv0ql9aeQxcaMPK/h1OLAC00W7fWCRWIvD2MchZOE8jumIIr66HGrfG2X1sw++m/ZYI4D+BM5ovQ==}
+  /@rushstack/rig-package/0.3.10:
+    resolution: {integrity: sha512-4Z2HhXM4YBWOi4ZYFQNK6Yxz641v+cvc8NKiaNZh+RIdNb3D4Rfpy3XUkggbCozpfDriBfL1+KaXlJtfJfAIXw==}
     dependencies:
       resolve: 1.17.0
       strip-json-comments: 3.1.1
@@ -2564,6 +2565,14 @@ packages:
   /@rushstack/tree-pattern/0.2.4:
     resolution: {integrity: sha512-H8i0OinWsdKM1TKEKPeRRTw85e+/7AIFpxm7q1blceZJhuxRBjCGAUZvQXZK4CMLx75xPqh/h1t5WHwFmElAPA==}
 
+  /@rushstack/ts-command-line/4.10.9:
+    resolution: {integrity: sha512-TE3eZgHNVHOY3p8lp38FoNEJUr0+swPb24sCcYuwlC+MHgMGXyJNM+p7l3TKSBRiY01XShoL2k601oGwL00KlA==}
+    dependencies:
+      '@types/argparse': 1.0.38
+      argparse: 1.0.10
+      colors: 1.2.5
+      string-argv: 0.3.1
+
   /@rushstack/ts-command-line/4.12.4:
     resolution: {integrity: sha512-ckZHEfPiJCmBdWd/syve5zu2TNsPIqbFie3jWzM/izZa6ZOkDwex/K1ww+kJ12hFBnN44lMD7voJvKXajUCEDA==}
     dependencies:
@@ -2572,14 +2581,6 @@ packages:
       colors: 1.2.5
       string-argv: 0.3.1
     dev: true
-
-  /@rushstack/ts-command-line/4.7.10:
-    resolution: {integrity: sha512-8t042g8eerypNOEcdpxwRA3uCmz0duMo21rG4Z2mdz7JxJeylDmzjlU3wDdef2t3P1Z61JCdZB6fbm1Mh0zi7w==}
-    dependencies:
-      '@types/argparse': 1.0.38
-      argparse: 1.0.10
-      colors: 1.2.5
-      string-argv: 0.3.1
 
   /@rushstack/ts-command-line/4.7.9:
     resolution: {integrity: sha512-Jq5O4t0op9xdFfS9RbUV/ZFlAFxX6gdVTY+69UFRTn9pwWOzJR0kroty01IlnDByPCgvHH8RMz9sEXzD9Qxdrg==}
@@ -10572,7 +10573,7 @@ packages:
       extend-shallow: 3.0.2
 
   /sprintf-js/1.0.3:
-    resolution: {integrity: sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=}
+    resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
 
   /sshpk/1.16.1:
     resolution: {integrity: sha512-HXXqVUq7+pcKeLqqZj6mHFUMvXtOJt1uoUx09pFW6011inTMxqI8BA8PM95myrIyyKwdnzjdFjLiE6KBPVtJIg==}
@@ -10996,7 +10997,7 @@ packages:
     dev: false
 
   /timsort/0.3.0:
-    resolution: {integrity: sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=}
+    resolution: {integrity: sha512-qsdtZH+vMoCARQtyod4imc2nIJwg9Cc7lPRrw9CzF8ZKR0khdr8+2nX80PBhET3tcyTtJDxAffGh2rXH4tyU8A==}
 
   /tiny-lr/1.1.1:
     resolution: {integrity: sha512-44yhA3tsaRoMOjQQ+5v5mVdqef+kH6Qze9jTpqtVufgYjYt08zyZAwNwwVBj3i1rJMnR52IxOW0LK0vBzgAkuA==}
@@ -12023,6 +12024,7 @@ packages:
     resolution: {integrity: sha512-V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg==}
     engines: {node: '>=4.2.0'}
     hasBin: true
+    dev: false
 
   /typescript/4.5.5:
     resolution: {integrity: sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==}

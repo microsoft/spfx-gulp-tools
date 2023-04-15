@@ -4,6 +4,8 @@
 
 ```ts
 
+/// <reference types="node" />
+
 import { GCBTerminalProvider } from '@microsoft/gulp-core-build';
 import { GulpTask } from '@microsoft/gulp-core-build';
 import { IBuildConfig } from '@microsoft/gulp-core-build';
@@ -60,7 +62,7 @@ export class TscCmdTask extends RSCTask<ITscCmdTaskConfig> {
     loadSchema(): JsonObject;
     // (undocumented)
     protected _onData(data: Buffer): void;
-    }
+}
 
 // @public (undocumented)
 export const tslintCmd: TslintCmdTask;
@@ -73,7 +75,6 @@ export class TslintCmdTask extends RSCTask<ITslintCmdTaskConfig> {
     // (undocumented)
     loadSchema(): JsonObject;
 }
-
 
 // (No @packageDocumentation comment for this package)
 
