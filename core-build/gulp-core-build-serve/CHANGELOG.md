@@ -1,6 +1,25 @@
 # Change Log - @microsoft/gulp-core-build-serve
 
-This log was last generated on Mon, 03 Oct 2022 21:28:25 GMT and should not be manually modified.
+This log was last generated on Sat, 15 Apr 2023 00:06:09 GMT and should not be manually modified.
+
+## 3.11.0
+Sat, 15 Apr 2023 00:06:09 GMT
+
+### Minor changes
+
+- Downgrade eslint-config to resolve typescript compiler peer dependency issue.
+
+## 3.10.0
+Wed, 01 Mar 2023 23:45:05 GMT
+
+### Minor changes
+
+- Update gulp-connect to ~5.7.0 because of a vulnerability in the "qs" dependency.
+
+## 3.9.24
+Mon, 23 Jan 2023 20:34:43 GMT
+
+_Version update only_
 
 ## 3.9.23
 Mon, 03 Oct 2022 21:28:25 GMT

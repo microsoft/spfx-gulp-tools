@@ -83,6 +83,11 @@ export interface ISassTaskConfig {
    * Allows the override of generateScopedName function in CSSModule.
    */
   generateScopedName?: (name: string, fileName: string, css: string) => string;
+
+  /**
+   * Silence compiler warnings from dependencies
+   */
+  quietDeps?: boolean;
 }
 
 export class SassTask extends GulpTask<ISassTaskConfig> {
@@ -101,7 +106,8 @@ export class SassTask extends GulpTask<ISassTaskConfig> {
       warnOnCssInvalidPropertyName: true,
       dropCssFiles: false,
       warnOnNonCSSModules: false,
-      autoprefixerOptions: { overrideBrowserslist: ['> 1%', 'last 2 versions', 'ie >= 10'] }
+      autoprefixerOptions: { overrideBrowserslist: ['> 1%', 'last 2 versions', 'ie >= 10'] },
+      quietDeps: false
     });
   }
 
@@ -159,7 +165,8 @@ export class SassTask extends GulpTask<ISassTaskConfig> {
       sourceMap: this.taskConfig.dropCssFiles,
       sourceMapContents: true,
       omitSourceMapUrl: true,
-      outFile: cssOutputPath
+      outFile: cssOutputPath,
+      quietDeps: !!this.taskConfig.quietDeps
     })
       .catch((error: sass.SassException) => {
         this.fileError(filePath, error.line, error.column, error.name, error.message);

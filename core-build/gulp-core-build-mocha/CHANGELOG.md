@@ -1,6 +1,13 @@
 # Change Log - @microsoft/gulp-core-build-mocha
 
-This log was last generated on Mon, 03 Oct 2022 21:28:25 GMT and should not be manually modified.
+This log was last generated on Sat, 15 Apr 2023 00:06:09 GMT and should not be manually modified.
+
+## 3.10.0
+Sat, 15 Apr 2023 00:06:09 GMT
+
+### Minor changes
+
+- Downgrade eslint-config to resolve typescript compiler peer dependency issue.
 
 ## 3.9.20
 Mon, 03 Oct 2022 21:28:25 GMT

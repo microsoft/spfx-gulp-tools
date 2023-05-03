@@ -1,6 +1,6 @@
 {
   "name": "@microsoft/gulp-core-build-mocha",
-  "version": "3.9.20",
+  "version": "3.10.0",
   "description": "",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -23,7 +23,7 @@
   "devDependencies": {
     "@microsoft/node-library-build": "6.5.21",
     "@microsoft/rush-stack-compiler-3.9": "0.4.42",
-    "@rushstack/eslint-config": "~3.1.0",
+    "@rushstack/eslint-config": "~2.6.2",
     "@types/glob": "7.1.1",
     "@types/gulp": "4.0.6",
     "@types/gulp-istanbul": "0.9.30",

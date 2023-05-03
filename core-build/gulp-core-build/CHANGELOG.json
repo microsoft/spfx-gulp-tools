@@ -2,6 +2,18 @@
   "name": "@microsoft/gulp-core-build",
   "entries": [
     {
+      "version": "3.18.0",
+      "tag": "@microsoft/gulp-core-build_v3.18.0",
+      "date": "Sat, 15 Apr 2023 00:06:09 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Downgrade eslint-config to resolve typescript compiler peer dependency issue."
+          }
+        ]
+      }
+    },
+    {
       "version": "3.17.20",
       "tag": "@microsoft/gulp-core-build_v3.17.20",
       "date": "Mon, 03 Oct 2022 21:28:25 GMT",

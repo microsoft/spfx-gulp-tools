@@ -1,6 +1,18 @@
 # Change Log - @microsoft/gulp-core-build-typescript
 
-This log was last generated on Mon, 03 Oct 2022 21:28:25 GMT and should not be manually modified.
+This log was last generated on Sat, 15 Apr 2023 00:06:09 GMT and should not be manually modified.
+
+## 8.6.0
+Sat, 15 Apr 2023 00:06:09 GMT
+
+### Minor changes
+
+- Downgrade eslint-config to resolve typescript compiler peer dependency issue.
+
+## 8.5.35
+Mon, 23 Jan 2023 20:34:42 GMT
+
+_Version update only_
 
 ## 8.5.34
 Mon, 03 Oct 2022 21:28:25 GMT

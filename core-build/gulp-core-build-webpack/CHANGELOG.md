@@ -1,6 +1,18 @@
 # Change Log - @microsoft/gulp-core-build-webpack
 
-This log was last generated on Mon, 03 Oct 2022 21:28:25 GMT and should not be manually modified.
+This log was last generated on Sat, 15 Apr 2023 00:06:09 GMT and should not be manually modified.
+
+## 5.3.0
+Sat, 15 Apr 2023 00:06:09 GMT
+
+### Minor changes
+
+- Downgrade eslint-config to resolve typescript compiler peer dependency issue.
+
+## 5.2.30
+Mon, 23 Jan 2023 20:34:43 GMT
+
+_Version update only_
 
 ## 5.2.29
 Mon, 03 Oct 2022 21:28:25 GMT

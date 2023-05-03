@@ -1,6 +1,28 @@
 # Change Log - @microsoft/web-library-build
 
-This log was last generated on Mon, 03 Oct 2022 21:28:25 GMT and should not be manually modified.
+This log was last generated on Sat, 15 Apr 2023 00:06:10 GMT and should not be manually modified.
+
+## 7.6.0
+Sat, 15 Apr 2023 00:06:10 GMT
+
+### Minor changes
+
+- Downgrade eslint-config to resolve typescript compiler peer dependency issue.
+
+## 7.5.89
+Wed, 01 Mar 2023 23:45:05 GMT
+
+_Version update only_
+
+## 7.5.88
+Mon, 23 Jan 2023 20:34:43 GMT
+
+_Version update only_
+
+## 7.5.87
+Wed, 19 Oct 2022 17:40:05 GMT
+
+_Version update only_
 
 ## 7.5.86
 Mon, 03 Oct 2022 21:28:25 GMT

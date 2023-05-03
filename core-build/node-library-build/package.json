@@ -1,6 +1,6 @@
 {
   "name": "@microsoft/node-library-build",
-  "version": "6.5.34",
+  "version": "6.6.0",
   "description": "",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@microsoft/rush-stack-compiler-3.9": "workspace:*",
-    "@rushstack/eslint-config": "~3.1.0",
+    "@rushstack/eslint-config": "~2.6.2",
     "eslint": "~7.12.1"
   }
 }
