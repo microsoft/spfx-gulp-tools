@@ -1,3 +1,6 @@
+// Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT license.
+// See LICENSE in the project root for license information.
+
 import * as colors from 'colors';
 
 export function open(opts: { uri?: string }): NodeJS.WritableStream {
@@ -9,11 +12,7 @@ export function open(opts: { uri?: string }): NodeJS.WritableStream {
   opts = opts || {};
   /* eslint-disable-next-line @typescript-eslint/typedef */
   return through.obj(function (file, enc, cb) {
-    let uri: string | undefined = opts.uri;
-
-    if (file.path && !uri) {
-      uri = file.path;
-    }
+    const uri: string | undefined = opts.uri || file.path;
 
     console.log(colors.blue(`Opening ${colors.green(uri)} using the ${colors.green('default OS app')}`));
     // Open with the default app defined by the os
