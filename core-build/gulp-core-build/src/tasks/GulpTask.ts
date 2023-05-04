@@ -242,7 +242,7 @@ export abstract class GulpTask<TTaskConfig> implements IExecutable {
 
     logStartSubtask(this.name);
 
-    return new Promise((resolve, reject) => {
+    return new Promise<void>((resolve, reject) => {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       let stream: any = undefined;
 
