@@ -13,6 +13,8 @@ import * as ExpressType from 'express';
 
 import { ICertificate, CertificateManager } from '@rushstack/debug-certificate-manager';
 
+import { open } from './utilities/GulpOpen';
+
 /**
  * @remarks
  * If this schema is updated, dependant schemas MUST also be updated, including the spfx-serve.schema.json.
@@ -115,7 +117,6 @@ export class ServeTask<TExtendedConfig = {}> extends GulpTask<IServeTaskConfig &
   public async executeTask(gulp: typeof Gulp): Promise<void> {
     /* eslint-disable @typescript-eslint/typedef */
     const gulpConnect = require('gulp-connect');
-    const open = require('gulp-open');
     const http = require('http');
     const https = require('https');
     /* eslint-enable @typescript-eslint/typedef */

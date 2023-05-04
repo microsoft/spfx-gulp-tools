@@ -21,8 +21,9 @@
     "express": "~4.16.2",
     "gulp": "~4.0.2",
     "gulp-connect": "~5.7.0",
-    "gulp-open": "~3.0.1",
-    "sudo": "~1.0.3"
+    "open": "8.4.2",
+    "sudo": "~1.0.3",
+    "through2": "~2.0.1"
   },
   "devDependencies": {
     "@microsoft/node-library-build": "workspace:*",

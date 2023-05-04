@@ -215,10 +215,6 @@
       "allowedCategories": [ "libraries" ]
     },
     {
-      "name": "gulp-open",
-      "allowedCategories": [ "libraries" ]
-    },
-    {
       "name": "gulp-replace",
       "allowedCategories": [ "libraries" ]
     },
@@ -260,6 +256,10 @@
     },
     {
       "name": "object-assign",
+      "allowedCategories": [ "libraries" ]
+    },
+    {
+      "name": "open",
       "allowedCategories": [ "libraries" ]
     },
     {
