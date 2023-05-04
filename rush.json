@@ -376,10 +376,10 @@
   // "hotfixChangeEnabled": false,
 
   /**
-    * This is an optional, but recommended, list of available tags that can be applied
-    * to projects. If this property is not specified, any tag is allowed. This
-    * list is useful in preventing typos when specifying tags for projects.
-    */
+   * This is an optional, but recommended, list of available tags that can be applied
+   * to projects. If this property is not specified, any tag is allowed. This
+   * list is useful in preventing typos when specifying tags for projects.
+   */
   // "allowedProjectTags": [ "apps", "Web", "tools" ],
 
   /**
@@ -609,14 +609,14 @@
       "projectFolder": "core-build/gulp-core-build",
       "reviewCategory": "libraries",
       "shouldPublish": true,
-      "decoupledLocalDependencies": ["@microsoft/node-library-build", "@microsoft/rush-stack-compiler-3.9"]
+      "decoupledLocalDependencies": ["@microsoft/node-library-build", "@microsoft/rush-stack-compiler-4.5"]
     },
     {
       "packageName": "@microsoft/gulp-core-build-mocha",
       "projectFolder": "core-build/gulp-core-build-mocha",
       "reviewCategory": "libraries",
       "shouldPublish": true,
-      "decoupledLocalDependencies": ["@microsoft/node-library-build", "@microsoft/rush-stack-compiler-3.9"]
+      "decoupledLocalDependencies": ["@microsoft/node-library-build", "@microsoft/rush-stack-compiler-4.5"]
     },
     {
       "packageName": "@microsoft/gulp-core-build-sass",
@@ -635,7 +635,7 @@
       "projectFolder": "core-build/gulp-core-build-typescript",
       "reviewCategory": "libraries",
       "shouldPublish": true,
-      "decoupledLocalDependencies": ["@microsoft/node-library-build", "@microsoft/rush-stack-compiler-3.9"]
+      "decoupledLocalDependencies": ["@microsoft/node-library-build"]
     },
     {
       "packageName": "@microsoft/gulp-core-build-webpack",
@@ -739,8 +739,7 @@
       "packageName": "@microsoft/rush-stack-compiler-3.9",
       "projectFolder": "stack/rush-stack-compiler-3.9",
       "reviewCategory": "libraries",
-      "shouldPublish": true,
-      "decoupledLocalDependencies": ["@microsoft/rush-stack-compiler-3.9"]
+      "shouldPublish": true
     },
     {
       "packageName": "@microsoft/rush-stack-compiler-4.0",
@@ -764,6 +763,7 @@
       "packageName": "@microsoft/rush-stack-compiler-4.5",
       "projectFolder": "stack/rush-stack-compiler-4.5",
       "reviewCategory": "libraries",
+      "decoupledLocalDependencies": ["@microsoft/rush-stack-compiler-4.5"],
       "shouldPublish": true
     },
     {
