@@ -9,7 +9,6 @@ export function open(opts: { uri?: string }): NodeJS.WritableStream {
   const through = require('through2');
   /* eslint-enable @typescript-eslint/typedef */
 
-  opts = opts || {};
   /* eslint-disable-next-line @typescript-eslint/typedef */
   return through.obj(function (file, enc, cb) {
     const uri: string | undefined = opts.uri || file.path;
