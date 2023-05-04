@@ -1,6 +1,13 @@
 # Change Log - @microsoft/gulp-core-build-serve
 
-This log was last generated on Sat, 15 Apr 2023 00:06:09 GMT and should not be manually modified.
+This log was last generated on Thu, 04 May 2023 22:19:13 GMT and should not be manually modified.
+
+## 3.12.0
+Thu, 04 May 2023 22:19:13 GMT
+
+### Minor changes
+
+- Replace gulp-open with a custom implementation
 
 ## 3.11.0
 Sat, 15 Apr 2023 00:06:09 GMT

@@ -2,6 +2,18 @@
   "name": "@microsoft/gulp-core-build-serve",
   "entries": [
     {
+      "version": "3.12.0",
+      "tag": "@microsoft/gulp-core-build-serve_v3.12.0",
+      "date": "Thu, 04 May 2023 22:19:13 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Replace gulp-open with a custom implementation"
+          }
+        ]
+      }
+    },
+    {
       "version": "3.11.0",
       "tag": "@microsoft/gulp-core-build-serve_v3.11.0",
       "date": "Sat, 15 Apr 2023 00:06:09 GMT",
