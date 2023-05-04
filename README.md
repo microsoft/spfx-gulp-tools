@@ -1,7 +1,7 @@
 # Rush Stack Legacy
 
 
-[![Build Status](https://dev.azure.com/RushStack/GitHubProjects/_apis/build/status/rushstack/rushstack-legacy%20CI%20Build?branchName=master)](https://dev.azure.com/RushStack/GitHubProjects/_build/latest?definitionId=23&branchName=master)
+[![Build Status](https://dev.azure.com/RushStack/GitHubProjects/_apis/build/status/rushstack/rushstack-legacy%20CI%20Build?branchName=main)](https://dev.azure.com/RushStack/GitHubProjects/_build/latest?definitionId=23&branchName=main)
 
 The [Rush Stack](https://rushstack.io/) community maintains the projects in this repository, but they are no longer actively developed. Where possible, we recommend for you to use the [Heft](https://rushstack.io/pages/heft/overview/) toolchain instead.  It provides similar functionality, but with a more scalable architecture and lots more features.
 
