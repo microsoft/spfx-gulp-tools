@@ -615,14 +615,14 @@
       "projectFolder": "core-build/gulp-core-build",
       "reviewCategory": "libraries",
       "shouldPublish": true,
-      "decoupledLocalDependencies": ["@microsoft/node-library-build", "@microsoft/rush-stack-compiler-4.5"]
+      "decoupledLocalDependencies": ["@microsoft/node-library-build", "@microsoft/rush-stack-compiler-4.7"]
     },
     {
       "packageName": "@microsoft/gulp-core-build-mocha",
       "projectFolder": "core-build/gulp-core-build-mocha",
       "reviewCategory": "libraries",
       "shouldPublish": true,
-      "decoupledLocalDependencies": ["@microsoft/node-library-build", "@microsoft/rush-stack-compiler-4.5"]
+      "decoupledLocalDependencies": ["@microsoft/node-library-build", "@microsoft/rush-stack-compiler-4.7"]
     },
     {
       "packageName": "@microsoft/gulp-core-build-sass",
@@ -769,13 +769,13 @@
       "packageName": "@microsoft/rush-stack-compiler-4.5",
       "projectFolder": "stack/rush-stack-compiler-4.5",
       "reviewCategory": "libraries",
-      "decoupledLocalDependencies": ["@microsoft/rush-stack-compiler-4.5"],
       "shouldPublish": true
     },
     {
       "packageName": "@microsoft/rush-stack-compiler-4.7",
       "projectFolder": "stack/rush-stack-compiler-4.7",
       "reviewCategory": "libraries",
+      "decoupledLocalDependencies": ["@microsoft/rush-stack-compiler-4.7"],
       "shouldPublish": true
     },
     {

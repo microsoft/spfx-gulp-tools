@@ -60,7 +60,7 @@ export abstract class RSCTask<TTaskConfig extends IRSCTaskConfig> extends GulpTa
             'Unable to resolve rush-stack-compiler from tsconfig.json. Using built-in compiler'
           );
           const builtInCompilerPath: string | undefined = RSCTask._packageJsonLookup.tryGetPackageFolderFor(
-            require.resolve('@microsoft/rush-stack-compiler-4.5')
+            require.resolve('@microsoft/rush-stack-compiler-4.7')
           );
           if (!builtInCompilerPath) {
             throw new Error(

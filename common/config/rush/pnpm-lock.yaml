@@ -356,7 +356,7 @@ importers:
       '@jest/core': ~25.4.0
       '@jest/reporters': ~25.4.0
       '@microsoft/node-library-build': 6.5.21
-      '@microsoft/rush-stack-compiler-4.5': 0.5.0
+      '@microsoft/rush-stack-compiler-4.7': 0.1.0
       '@rushstack/eslint-config': ~2.6.2
       '@rushstack/node-core-library': ~3.53.0
       '@types/chalk': 0.4.31
@@ -440,7 +440,7 @@ importers:
       z-schema: 3.18.4
     devDependencies:
       '@microsoft/node-library-build': 6.5.21
-      '@microsoft/rush-stack-compiler-4.5': 0.5.0_eslint@7.12.1
+      '@microsoft/rush-stack-compiler-4.7': 0.1.0_eslint@7.12.1
       '@rushstack/eslint-config': 2.6.2_eslint@7.12.1
       '@types/glob': 7.1.1
       '@types/z-schema': 3.16.31
@@ -450,7 +450,7 @@ importers:
     specifiers:
       '@microsoft/gulp-core-build': workspace:*
       '@microsoft/node-library-build': 6.5.21
-      '@microsoft/rush-stack-compiler-4.5': 0.5.0
+      '@microsoft/rush-stack-compiler-4.7': 0.1.0
       '@rushstack/eslint-config': ~2.6.2
       '@types/glob': 7.1.1
       '@types/gulp': 4.0.6
@@ -473,7 +473,7 @@ importers:
       gulp-mocha: 6.0.0
     devDependencies:
       '@microsoft/node-library-build': 6.5.21
-      '@microsoft/rush-stack-compiler-4.5': 0.5.0_eslint@7.12.1
+      '@microsoft/rush-stack-compiler-4.7': 0.1.0_eslint@7.12.1
       '@rushstack/eslint-config': 2.6.2_eslint@7.12.1
       '@types/glob': 7.1.1
       '@types/gulp': 4.0.6
@@ -488,7 +488,7 @@ importers:
       '@microsoft/gulp-core-build': workspace:*
       '@microsoft/load-themed-styles': ~1.10.172
       '@microsoft/node-library-build': workspace:*
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@rushstack/node-core-library': ~3.53.0
       '@types/autoprefixer': 9.7.2
@@ -521,7 +521,7 @@ importers:
       sass: 1.44.0
     devDependencies:
       '@microsoft/node-library-build': link:../node-library-build
-      '@microsoft/rush-stack-compiler-4.5': link:../../stack/rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': link:../../stack/rush-stack-compiler-4.7
       '@rushstack/eslint-config': 2.6.2_eslint@7.12.1
       '@types/autoprefixer': 9.7.2
       '@types/clean-css': 4.2.1
@@ -536,7 +536,7 @@ importers:
     specifiers:
       '@microsoft/gulp-core-build': workspace:*
       '@microsoft/node-library-build': workspace:*
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@rushstack/debug-certificate-manager': ~1.1.19
       '@rushstack/eslint-config': ~2.6.2
       '@rushstack/node-core-library': ~3.53.0
@@ -571,7 +571,7 @@ importers:
       through2: 2.0.5
     devDependencies:
       '@microsoft/node-library-build': link:../node-library-build
-      '@microsoft/rush-stack-compiler-4.5': link:../../stack/rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': link:../../stack/rush-stack-compiler-4.7
       '@rushstack/eslint-config': 2.6.2_eslint@7.12.1
       '@types/express': 4.11.0
       '@types/express-serve-static-core': 4.11.0
@@ -588,7 +588,7 @@ importers:
       '@microsoft/api-extractor': ~7.15.2
       '@microsoft/gulp-core-build': workspace:*
       '@microsoft/node-library-build': 6.5.21
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@rushstack/node-core-library': ~3.53.0
       '@types/glob': 7.1.1
@@ -612,7 +612,7 @@ importers:
     devDependencies:
       '@microsoft/api-extractor': 7.15.2
       '@microsoft/node-library-build': 6.5.21
-      '@microsoft/rush-stack-compiler-4.5': link:../../stack/rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': link:../../stack/rush-stack-compiler-4.7
       '@rushstack/eslint-config': 2.6.2_eslint@7.12.1
       '@types/glob': 7.1.1
       '@types/resolve': 1.17.1
@@ -624,7 +624,7 @@ importers:
     specifiers:
       '@microsoft/gulp-core-build': workspace:*
       '@microsoft/node-library-build': workspace:*
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@types/gulp': 4.0.6
       '@types/node': 10.17.13
@@ -647,7 +647,7 @@ importers:
       webpack: 4.44.2
     devDependencies:
       '@microsoft/node-library-build': link:../node-library-build
-      '@microsoft/rush-stack-compiler-4.5': link:../../stack/rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': link:../../stack/rush-stack-compiler-4.7
       '@rushstack/eslint-config': 2.6.2_eslint@7.12.1
       '@types/orchestrator': 0.0.30
       '@types/source-map': 0.5.0
@@ -662,7 +662,7 @@ importers:
       '@microsoft/gulp-core-build': workspace:*
       '@microsoft/gulp-core-build-mocha': workspace:*
       '@microsoft/gulp-core-build-typescript': workspace:*
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@types/gulp': 4.0.6
       '@types/node': 10.17.13
@@ -676,7 +676,7 @@ importers:
       '@types/node': 10.17.13
       gulp: 4.0.2
     devDependencies:
-      '@microsoft/rush-stack-compiler-4.5': link:../../stack/rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': link:../../stack/rush-stack-compiler-4.7
       '@rushstack/eslint-config': 2.6.2_eslint@7.12.1
       eslint: 7.12.1
 
@@ -688,7 +688,7 @@ importers:
       '@microsoft/gulp-core-build-typescript': workspace:*
       '@microsoft/gulp-core-build-webpack': workspace:*
       '@microsoft/node-library-build': workspace:*
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@types/gulp': 4.0.6
       '@types/node': 10.17.13
@@ -707,14 +707,14 @@ importers:
       gulp-replace: 0.5.4
     devDependencies:
       '@microsoft/node-library-build': link:../node-library-build
-      '@microsoft/rush-stack-compiler-4.5': link:../../stack/rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': link:../../stack/rush-stack-compiler-4.7
       '@rushstack/eslint-config': 2.6.2_eslint@7.12.1
       eslint: 7.12.1
 
   ../../stack/rush-stack-compiler-2.4:
     specifiers:
       '@microsoft/api-extractor': ~7.15.2
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@rushstack/heft': 0.48.0
@@ -737,7 +737,7 @@ importers:
       tslint-microsoft-contrib: 6.2.0_tslint@5.20.1+typescript@2.4.2
       typescript: 2.4.2
     devDependencies:
-      '@microsoft/rush-stack-compiler-4.5': link:../rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': link:../rush-stack-compiler-4.7
       '@microsoft/rush-stack-compiler-shared': link:../rush-stack-compiler-shared
       '@rushstack/heft': 0.48.0
       '@rushstack/heft-node-rig': 1.11.0_@rushstack+heft@0.48.0
@@ -745,7 +745,7 @@ importers:
   ../../stack/rush-stack-compiler-2.7:
     specifiers:
       '@microsoft/api-extractor': ~7.15.2
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@rushstack/heft': 0.48.0
@@ -768,7 +768,7 @@ importers:
       tslint-microsoft-contrib: 6.2.0_tslint@5.20.1+typescript@2.7.2
       typescript: 2.7.2
     devDependencies:
-      '@microsoft/rush-stack-compiler-4.5': link:../rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': link:../rush-stack-compiler-4.7
       '@microsoft/rush-stack-compiler-shared': link:../rush-stack-compiler-shared
       '@rushstack/heft': 0.48.0
       '@rushstack/heft-node-rig': 1.11.0_@rushstack+heft@0.48.0
@@ -776,7 +776,7 @@ importers:
   ../../stack/rush-stack-compiler-2.8:
     specifiers:
       '@microsoft/api-extractor': ~7.15.2
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@rushstack/heft': 0.48.0
@@ -799,7 +799,7 @@ importers:
       tslint-microsoft-contrib: 6.2.0_tslint@5.20.1+typescript@2.8.4
       typescript: 2.8.4
     devDependencies:
-      '@microsoft/rush-stack-compiler-4.5': link:../rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': link:../rush-stack-compiler-4.7
       '@microsoft/rush-stack-compiler-shared': link:../rush-stack-compiler-shared
       '@rushstack/heft': 0.48.0
       '@rushstack/heft-node-rig': 1.11.0_@rushstack+heft@0.48.0
@@ -807,7 +807,7 @@ importers:
   ../../stack/rush-stack-compiler-2.9:
     specifiers:
       '@microsoft/api-extractor': ~7.15.2
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@rushstack/heft': 0.48.0
@@ -830,7 +830,7 @@ importers:
       tslint-microsoft-contrib: 6.2.0_tslint@5.20.1+typescript@2.9.2
       typescript: 2.9.2
     devDependencies:
-      '@microsoft/rush-stack-compiler-4.5': link:../rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': link:../rush-stack-compiler-4.7
       '@microsoft/rush-stack-compiler-shared': link:../rush-stack-compiler-shared
       '@rushstack/heft': 0.48.0
       '@rushstack/heft-node-rig': 1.11.0_@rushstack+heft@0.48.0
@@ -838,7 +838,7 @@ importers:
   ../../stack/rush-stack-compiler-3.0:
     specifiers:
       '@microsoft/api-extractor': ~7.15.2
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@rushstack/heft': 0.48.0
@@ -861,7 +861,7 @@ importers:
       tslint-microsoft-contrib: 6.2.0_tslint@5.20.1+typescript@3.0.3
       typescript: 3.0.3
     devDependencies:
-      '@microsoft/rush-stack-compiler-4.5': link:../rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': link:../rush-stack-compiler-4.7
       '@microsoft/rush-stack-compiler-shared': link:../rush-stack-compiler-shared
       '@rushstack/heft': 0.48.0
       '@rushstack/heft-node-rig': 1.11.0_@rushstack+heft@0.48.0
@@ -869,7 +869,7 @@ importers:
   ../../stack/rush-stack-compiler-3.1:
     specifiers:
       '@microsoft/api-extractor': ~7.15.2
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@rushstack/heft': 0.48.0
@@ -892,7 +892,7 @@ importers:
       tslint-microsoft-contrib: 6.2.0_tslint@5.20.1+typescript@3.1.8
       typescript: 3.1.8
     devDependencies:
-      '@microsoft/rush-stack-compiler-4.5': link:../rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': link:../rush-stack-compiler-4.7
       '@microsoft/rush-stack-compiler-shared': link:../rush-stack-compiler-shared
       '@rushstack/heft': 0.48.0
       '@rushstack/heft-node-rig': 1.11.0_@rushstack+heft@0.48.0
@@ -900,7 +900,7 @@ importers:
   ../../stack/rush-stack-compiler-3.2:
     specifiers:
       '@microsoft/api-extractor': ~7.15.2
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@rushstack/heft': 0.48.0
@@ -923,7 +923,7 @@ importers:
       tslint-microsoft-contrib: 6.2.0_tslint@5.20.1+typescript@3.2.4
       typescript: 3.2.4
     devDependencies:
-      '@microsoft/rush-stack-compiler-4.5': link:../rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': link:../rush-stack-compiler-4.7
       '@microsoft/rush-stack-compiler-shared': link:../rush-stack-compiler-shared
       '@rushstack/heft': 0.48.0
       '@rushstack/heft-node-rig': 1.11.0_@rushstack+heft@0.48.0
@@ -931,7 +931,7 @@ importers:
   ../../stack/rush-stack-compiler-3.3:
     specifiers:
       '@microsoft/api-extractor': ~7.15.2
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@rushstack/heft': 0.48.0
@@ -954,7 +954,7 @@ importers:
       tslint-microsoft-contrib: 6.2.0_5de1f8fa14d12d0f8943ae8c5c9e10ce
       typescript: 3.3.4000
     devDependencies:
-      '@microsoft/rush-stack-compiler-4.5': link:../rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': link:../rush-stack-compiler-4.7
       '@microsoft/rush-stack-compiler-shared': link:../rush-stack-compiler-shared
       '@rushstack/heft': 0.48.0
       '@rushstack/heft-node-rig': 1.11.0_@rushstack+heft@0.48.0
@@ -962,7 +962,7 @@ importers:
   ../../stack/rush-stack-compiler-3.4:
     specifiers:
       '@microsoft/api-extractor': ~7.15.2
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@rushstack/heft': 0.48.0
@@ -985,7 +985,7 @@ importers:
       tslint-microsoft-contrib: 6.2.0_tslint@5.20.1+typescript@3.4.5
       typescript: 3.4.5
     devDependencies:
-      '@microsoft/rush-stack-compiler-4.5': link:../rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': link:../rush-stack-compiler-4.7
       '@microsoft/rush-stack-compiler-shared': link:../rush-stack-compiler-shared
       '@rushstack/heft': 0.48.0
       '@rushstack/heft-node-rig': 1.11.0_@rushstack+heft@0.48.0
@@ -993,7 +993,7 @@ importers:
   ../../stack/rush-stack-compiler-3.5:
     specifiers:
       '@microsoft/api-extractor': ~7.15.2
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@rushstack/heft': 0.48.0
@@ -1016,7 +1016,7 @@ importers:
       tslint-microsoft-contrib: 6.2.0_tslint@5.20.1+typescript@3.5.3
       typescript: 3.5.3
     devDependencies:
-      '@microsoft/rush-stack-compiler-4.5': link:../rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': link:../rush-stack-compiler-4.7
       '@microsoft/rush-stack-compiler-shared': link:../rush-stack-compiler-shared
       '@rushstack/heft': 0.48.0
       '@rushstack/heft-node-rig': 1.11.0_@rushstack+heft@0.48.0
@@ -1024,7 +1024,7 @@ importers:
   ../../stack/rush-stack-compiler-3.6:
     specifiers:
       '@microsoft/api-extractor': ~7.15.2
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@rushstack/heft': 0.48.0
@@ -1047,7 +1047,7 @@ importers:
       tslint-microsoft-contrib: 6.2.0_tslint@5.20.1+typescript@3.6.5
       typescript: 3.6.5
     devDependencies:
-      '@microsoft/rush-stack-compiler-4.5': link:../rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': link:../rush-stack-compiler-4.7
       '@microsoft/rush-stack-compiler-shared': link:../rush-stack-compiler-shared
       '@rushstack/heft': 0.48.0
       '@rushstack/heft-node-rig': 1.11.0_@rushstack+heft@0.48.0
@@ -1055,7 +1055,7 @@ importers:
   ../../stack/rush-stack-compiler-3.7:
     specifiers:
       '@microsoft/api-extractor': ~7.15.2
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@rushstack/heft': 0.48.0
@@ -1078,7 +1078,7 @@ importers:
       tslint-microsoft-contrib: 6.2.0_tslint@5.20.1+typescript@3.7.7
       typescript: 3.7.7
     devDependencies:
-      '@microsoft/rush-stack-compiler-4.5': link:../rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': link:../rush-stack-compiler-4.7
       '@microsoft/rush-stack-compiler-shared': link:../rush-stack-compiler-shared
       '@rushstack/heft': 0.48.0
       '@rushstack/heft-node-rig': 1.11.0_@rushstack+heft@0.48.0
@@ -1086,7 +1086,7 @@ importers:
   ../../stack/rush-stack-compiler-3.8:
     specifiers:
       '@microsoft/api-extractor': ~7.15.2
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@rushstack/heft': 0.48.0
@@ -1109,7 +1109,7 @@ importers:
       tslint-microsoft-contrib: 6.2.0_tslint@5.20.1+typescript@3.8.3
       typescript: 3.8.3
     devDependencies:
-      '@microsoft/rush-stack-compiler-4.5': link:../rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': link:../rush-stack-compiler-4.7
       '@microsoft/rush-stack-compiler-shared': link:../rush-stack-compiler-shared
       '@rushstack/heft': 0.48.0
       '@rushstack/heft-node-rig': 1.11.0_@rushstack+heft@0.48.0
@@ -1117,7 +1117,7 @@ importers:
   ../../stack/rush-stack-compiler-3.9:
     specifiers:
       '@microsoft/api-extractor': ~7.15.2
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@rushstack/heft': 0.48.0
@@ -1140,7 +1140,7 @@ importers:
       tslint-microsoft-contrib: 6.2.0_tslint@5.20.1+typescript@3.9.9
       typescript: 3.9.9
     devDependencies:
-      '@microsoft/rush-stack-compiler-4.5': link:../rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': link:../rush-stack-compiler-4.7
       '@microsoft/rush-stack-compiler-shared': link:../rush-stack-compiler-shared
       '@rushstack/heft': 0.48.0
       '@rushstack/heft-node-rig': 1.11.0_@rushstack+heft@0.48.0
@@ -1148,7 +1148,7 @@ importers:
   ../../stack/rush-stack-compiler-4.0:
     specifiers:
       '@microsoft/api-extractor': ~7.15.2
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@rushstack/heft': 0.48.0
@@ -1167,7 +1167,7 @@ importers:
       import-lazy: 4.0.0
       typescript: 4.0.7
     devDependencies:
-      '@microsoft/rush-stack-compiler-4.5': link:../rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': link:../rush-stack-compiler-4.7
       '@microsoft/rush-stack-compiler-shared': link:../rush-stack-compiler-shared
       '@rushstack/heft': 0.48.0
       '@rushstack/heft-node-rig': 1.11.0_@rushstack+heft@0.48.0
@@ -1175,7 +1175,7 @@ importers:
   ../../stack/rush-stack-compiler-4.1:
     specifiers:
       '@microsoft/api-extractor': ~7.15.2
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@rushstack/heft': 0.48.0
@@ -1194,7 +1194,7 @@ importers:
       import-lazy: 4.0.0
       typescript: 4.1.5
     devDependencies:
-      '@microsoft/rush-stack-compiler-4.5': link:../rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': link:../rush-stack-compiler-4.7
       '@microsoft/rush-stack-compiler-shared': link:../rush-stack-compiler-shared
       '@rushstack/heft': 0.48.0
       '@rushstack/heft-node-rig': 1.11.0_@rushstack+heft@0.48.0
@@ -1202,7 +1202,7 @@ importers:
   ../../stack/rush-stack-compiler-4.2:
     specifiers:
       '@microsoft/api-extractor': ~7.15.2
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@rushstack/heft': 0.48.0
@@ -1221,7 +1221,7 @@ importers:
       import-lazy: 4.0.0
       typescript: 4.2.4
     devDependencies:
-      '@microsoft/rush-stack-compiler-4.5': link:../rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': link:../rush-stack-compiler-4.7
       '@microsoft/rush-stack-compiler-shared': link:../rush-stack-compiler-shared
       '@rushstack/heft': 0.48.0
       '@rushstack/heft-node-rig': 1.11.0_@rushstack+heft@0.48.0
@@ -1229,7 +1229,7 @@ importers:
   ../../stack/rush-stack-compiler-4.5:
     specifiers:
       '@microsoft/api-extractor': ~7.15.2
-      '@microsoft/rush-stack-compiler-4.5': 0.5.0
+      '@microsoft/rush-stack-compiler-4.7': workspace:*
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@rushstack/heft': 0.48.0
@@ -1246,7 +1246,7 @@ importers:
       import-lazy: 4.0.0
       typescript: 4.5.5
     devDependencies:
-      '@microsoft/rush-stack-compiler-4.5': 0.5.0
+      '@microsoft/rush-stack-compiler-4.7': link:../rush-stack-compiler-4.7
       '@microsoft/rush-stack-compiler-shared': link:../rush-stack-compiler-shared
       '@rushstack/heft': 0.48.0
       '@rushstack/heft-node-rig': 1.11.0_@rushstack+heft@0.48.0
@@ -1254,7 +1254,7 @@ importers:
   ../../stack/rush-stack-compiler-4.7:
     specifiers:
       '@microsoft/api-extractor': ~7.15.2
-      '@microsoft/rush-stack-compiler-4.5': workspace:*
+      '@microsoft/rush-stack-compiler-4.7': 0.1.0
       '@microsoft/rush-stack-compiler-shared': workspace:*
       '@rushstack/eslint-config': ~2.6.2
       '@rushstack/heft': 0.48.0
@@ -1271,7 +1271,7 @@ importers:
       import-lazy: 4.0.0
       typescript: 4.7.4
     devDependencies:
-      '@microsoft/rush-stack-compiler-4.5': link:../rush-stack-compiler-4.5
+      '@microsoft/rush-stack-compiler-4.7': 0.1.0
       '@microsoft/rush-stack-compiler-shared': link:../rush-stack-compiler-shared
       '@rushstack/heft': 0.48.0
       '@rushstack/heft-node-rig': 1.11.0_@rushstack+heft@0.48.0
@@ -2168,8 +2168,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@microsoft/rush-stack-compiler-4.5/0.5.0:
-    resolution: {integrity: sha512-LUNdLsOQBHzBIFoy6Gh9oNIAPFCrRG0hvLLuUAbovaxbLJ2Sp6GkO+L1Lot/JIpUtQSOxAElb3wNPp9vVdXGOw==}
+  /@microsoft/rush-stack-compiler-4.7/0.1.0:
+    resolution: {integrity: sha512-fl7vWuAJjhsJWauSlUgC/ldF4vL8qmMX0LozTvHM5ICmM82O3exPFjLjvgw9q/niGt77P1OGIrwiDClCHfZQJQ==}
     hasBin: true
     peerDependencies:
       eslint: ^8.7.0
@@ -2179,13 +2179,13 @@ packages:
       '@rushstack/node-core-library': 3.53.0
       '@types/node': 10.17.13
       import-lazy: 4.0.0
-      typescript: 4.5.5
+      typescript: 4.7.4
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@microsoft/rush-stack-compiler-4.5/0.5.0_eslint@7.12.1:
-    resolution: {integrity: sha512-LUNdLsOQBHzBIFoy6Gh9oNIAPFCrRG0hvLLuUAbovaxbLJ2Sp6GkO+L1Lot/JIpUtQSOxAElb3wNPp9vVdXGOw==}
+  /@microsoft/rush-stack-compiler-4.7/0.1.0_eslint@7.12.1:
+    resolution: {integrity: sha512-fl7vWuAJjhsJWauSlUgC/ldF4vL8qmMX0LozTvHM5ICmM82O3exPFjLjvgw9q/niGt77P1OGIrwiDClCHfZQJQ==}
     hasBin: true
     peerDependencies:
       eslint: ^8.7.0
@@ -2196,7 +2196,7 @@ packages:
       '@types/node': 10.17.13
       eslint: 7.12.1
       import-lazy: 4.0.0
-      typescript: 4.5.5
+      typescript: 4.7.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -11531,7 +11531,6 @@ packages:
     resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==}
     engines: {node: '>=4.2.0'}
     hasBin: true
-    dev: false
 
   /typescript/4.8.4:
     resolution: {integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==}

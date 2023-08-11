@@ -21,7 +21,7 @@
     "gulp": "~4.0.2"
   },
   "devDependencies": {
-    "@microsoft/rush-stack-compiler-4.5": "workspace:*",
+    "@microsoft/rush-stack-compiler-4.7": "workspace:*",
     "@rushstack/eslint-config": "~2.6.2",
     "eslint": "~7.12.1"
   }
