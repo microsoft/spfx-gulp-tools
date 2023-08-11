@@ -119,6 +119,10 @@
       "allowedCategories": [ "libraries", "tests" ]
     },
     {
+      "name": "@microsoft/rush-stack-compiler-4.7",
+      "allowedCategories": [ "libraries", "tests" ]
+    },
+    {
       "name": "@microsoft/rush-stack-compiler-shared",
       "allowedCategories": [ "libraries" ]
     },

@@ -1,8 +1,7 @@
 # SPFx Gulp Tools
 
 
-[![Build Status](https://dev.azure.com/RushStack/GitHubProjects/_apis/build/status/rushstack/rushstack-legacy%20CI%20Build?branchName=main)](https://dev.azure.com/RushStack/GitHubProjects/_build/latest?definitionId=23&branchName=main)
-
+[![Build Status](https://dev.azure.com/RushStack/GitHubProjects/_apis/build/status%2Fspfx-gulp-tools%2Fspfx-gulp-tools%20CI%20Build?repoName=microsoft%2Fspfx-gulp-tools&branchName=main)](https://dev.azure.com/RushStack/GitHubProjects/_build/latest?definitionId=23&repoName=microsoft%2Fspfx-gulp-tools&branchName=main)
 
 <!-- GENERATED PROJECT SUMMARY START -->
 

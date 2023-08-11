@@ -6,7 +6,7 @@ import { JsonFile, FileSystem, LegacyAdapters, JsonObject } from '@rushstack/nod
 import * as glob from 'glob';
 import * as globEscape from 'glob-escape';
 import * as decomment from 'decomment';
-import * as TRushStackCompiler from '@microsoft/rush-stack-compiler-4.5';
+import type * as TRushStackCompiler from '@microsoft/rush-stack-compiler-4.7';
 
 import { RSCTask, IRSCTaskConfig } from './RSCTask';
 import { TsParseConfigHost } from './TsParseConfigHost';
