@@ -1,0 +1,17 @@
+{
+  "name": "@microsoft/rush-stack-compiler-4.7",
+  "entries": [
+    {
+      "version": "0.1.0",
+      "tag": "@microsoft/rush-stack-compiler-4.7_v0.1.0",
+      "date": "Fri, 11 Aug 2023 22:00:37 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Initial package creation."
+          }
+        ]
+      }
+    }
+  ]
+}
