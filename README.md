@@ -1,9 +1,7 @@
-# Rush Stack Legacy
+# SPFx Gulp Tools
 
 
 [![Build Status](https://dev.azure.com/RushStack/GitHubProjects/_apis/build/status/rushstack/rushstack-legacy%20CI%20Build?branchName=main)](https://dev.azure.com/RushStack/GitHubProjects/_build/latest?definitionId=23&branchName=main)
-
-The [Rush Stack](https://rushstack.io/) community maintains the projects in this repository, but they are no longer actively developed. Where possible, we recommend for you to use the [Heft](https://rushstack.io/pages/heft/overview/) toolchain instead.  It provides similar functionality, but with a more scalable architecture and lots more features.
 
 
 <!-- GENERATED PROJECT SUMMARY START -->
@@ -39,6 +37,8 @@ The [Rush Stack](https://rushstack.io/) community maintains the projects in this
 | [/stack/rush-stack-compiler-4.0](./stack/rush-stack-compiler-4.0/) | [![npm version](https://badge.fury.io/js/%40microsoft%2Frush-stack-compiler-4.0.svg)](https://badge.fury.io/js/%40microsoft%2Frush-stack-compiler-4.0) | [changelog](./stack/rush-stack-compiler-4.0/CHANGELOG.md) | [@microsoft/rush-stack-compiler-4.0](https://www.npmjs.com/package/@microsoft/rush-stack-compiler-4.0) |
 | [/stack/rush-stack-compiler-4.1](./stack/rush-stack-compiler-4.1/) | [![npm version](https://badge.fury.io/js/%40microsoft%2Frush-stack-compiler-4.1.svg)](https://badge.fury.io/js/%40microsoft%2Frush-stack-compiler-4.1) | [changelog](./stack/rush-stack-compiler-4.1/CHANGELOG.md) | [@microsoft/rush-stack-compiler-4.1](https://www.npmjs.com/package/@microsoft/rush-stack-compiler-4.1) |
 | [/stack/rush-stack-compiler-4.2](./stack/rush-stack-compiler-4.2/) | [![npm version](https://badge.fury.io/js/%40microsoft%2Frush-stack-compiler-4.2.svg)](https://badge.fury.io/js/%40microsoft%2Frush-stack-compiler-4.2) | [changelog](./stack/rush-stack-compiler-4.2/CHANGELOG.md) | [@microsoft/rush-stack-compiler-4.2](https://www.npmjs.com/package/@microsoft/rush-stack-compiler-4.2) |
+| [/stack/rush-stack-compiler-4.5](./stack/rush-stack-compiler-4.5/) | [![npm version](https://badge.fury.io/js/%40microsoft%2Frush-stack-compiler-4.5.svg)](https://badge.fury.io/js/%40microsoft%2Frush-stack-compiler-4.5) | [changelog](./stack/rush-stack-compiler-4.5/CHANGELOG.md) | [@microsoft/rush-stack-compiler-4.5](https://www.npmjs.com/package/@microsoft/rush-stack-compiler-4.5) |
+| [/stack/rush-stack-compiler-4.7](./stack/rush-stack-compiler-4.7/) | [![npm version](https://badge.fury.io/js/%40microsoft%2Frush-stack-compiler-4.7.svg)](https://badge.fury.io/js/%40microsoft%2Frush-stack-compiler-4.7) | [changelog](./stack/rush-stack-compiler-4.7/CHANGELOG.md) | [@microsoft/rush-stack-compiler-4.7](https://www.npmjs.com/package/@microsoft/rush-stack-compiler-4.7) |
 
 
 ## Unpublished Local Projects
@@ -66,8 +66,9 @@ The [Rush Stack](https://rushstack.io/) community maintains the projects in this
 | [/build-tests/rush-stack-compiler-4.0-library-test](./build-tests/rush-stack-compiler-4.0-library-test/) |  |
 | [/build-tests/rush-stack-compiler-4.1-library-test](./build-tests/rush-stack-compiler-4.1-library-test/) |  |
 | [/build-tests/rush-stack-compiler-4.2-library-test](./build-tests/rush-stack-compiler-4.2-library-test/) |  |
+| [/build-tests/rush-stack-compiler-4.5-library-test](./build-tests/rush-stack-compiler-4.5-library-test/) |  |
+| [/build-tests/rush-stack-compiler-4.7-library-test](./build-tests/rush-stack-compiler-4.7-library-test/) |  |
 | [/build-tests/web-library-build-test](./build-tests/web-library-build-test/) |  |
-| [/repo-scripts/repo-toolbox](./repo-scripts/repo-toolbox/) | Used to execute various operations specific to this repo |
 | [/stack/rush-stack-compiler-shared](./stack/rush-stack-compiler-shared/) |  |
 <!-- GENERATED PROJECT SUMMARY END -->
 
