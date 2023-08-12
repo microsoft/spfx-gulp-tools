@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "comment": "Fix repo reference.",
+      "type": "patch",
+      "packageName": "@microsoft/gulp-core-build-webpack"
+    }
+  ],
+  "packageName": "@microsoft/gulp-core-build-webpack",
+  "email": "iclanton@users.noreply.github.com"
+}
