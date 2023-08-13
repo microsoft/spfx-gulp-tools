@@ -2,6 +2,18 @@
   "name": "@microsoft/gulp-core-build",
   "entries": [
     {
+      "version": "3.18.1",
+      "tag": "@microsoft/gulp-core-build_v3.18.1",
+      "date": "Sun, 13 Aug 2023 04:04:31 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fix repo reference."
+          }
+        ]
+      }
+    },
+    {
       "version": "3.18.0",
       "tag": "@microsoft/gulp-core-build_v3.18.0",
       "date": "Sat, 15 Apr 2023 00:06:09 GMT",

@@ -2,6 +2,26 @@
   "name": "@microsoft/gulp-core-build-webpack",
   "entries": [
     {
+      "version": "5.3.1",
+      "tag": "@microsoft/gulp-core-build-webpack_v5.3.1",
+      "date": "Sun, 13 Aug 2023 04:04:31 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fix repo reference."
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@microsoft/gulp-core-build\" to `3.18.1`"
+          },
+          {
+            "comment": "Updating dependency \"@microsoft/node-library-build\" to `6.6.1`"
+          }
+        ]
+      }
+    },
+    {
       "version": "5.3.0",
       "tag": "@microsoft/gulp-core-build-webpack_v5.3.0",
       "date": "Sat, 15 Apr 2023 00:06:09 GMT",

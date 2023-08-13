@@ -2,6 +2,18 @@
   "name": "@microsoft/rush-stack-compiler-3.6",
   "entries": [
     {
+      "version": "0.8.1",
+      "tag": "@microsoft/rush-stack-compiler-3.6_v0.8.1",
+      "date": "Sun, 13 Aug 2023 04:04:32 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fix repo reference."
+          }
+        ]
+      }
+    },
+    {
       "version": "0.8.0",
       "tag": "@microsoft/rush-stack-compiler-3.6_v0.8.0",
       "date": "Sat, 15 Apr 2023 00:06:09 GMT",

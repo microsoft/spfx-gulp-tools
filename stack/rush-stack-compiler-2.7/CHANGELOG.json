@@ -2,6 +2,18 @@
   "name": "@microsoft/rush-stack-compiler-2.7",
   "entries": [
     {
+      "version": "0.15.1",
+      "tag": "@microsoft/rush-stack-compiler-2.7_v0.15.1",
+      "date": "Sun, 13 Aug 2023 04:04:31 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fix repo reference."
+          }
+        ]
+      }
+    },
+    {
       "version": "0.15.0",
       "tag": "@microsoft/rush-stack-compiler-2.7_v0.15.0",
       "date": "Sat, 15 Apr 2023 00:06:09 GMT",
