@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@microsoft/gulp-core-build-webpack",
+      "comment": "Bump webpack to ~4.47.0.",
+      "type": "minor"
+    }
+  ],
+  "packageName": "@microsoft/gulp-core-build-webpack"
+}
