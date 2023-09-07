@@ -1,6 +1,13 @@
 # Change Log - @microsoft/gulp-core-build-webpack
 
-This log was last generated on Sun, 13 Aug 2023 04:04:31 GMT and should not be manually modified.
+This log was last generated on Thu, 07 Sep 2023 20:21:39 GMT and should not be manually modified.
+
+## 5.4.0
+Thu, 07 Sep 2023 20:21:39 GMT
+
+### Minor changes
+
+- Bump webpack to ~4.47.0.
 
 ## 5.3.1
 Sun, 13 Aug 2023 04:04:31 GMT
