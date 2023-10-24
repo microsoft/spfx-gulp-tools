@@ -7,12 +7,12 @@ jobs:
     condition: succeeded()
     strategy:
       matrix:
-        'NodeJs 12':
-          NodeVersion: 12
         'NodeJs 14':
           NodeVersion: 14
+        'NodeJs 16':
+          NodeVersion: 16
 
     steps:
       - checkout: self
         path: rushstack-legacy
-      - template: templates/build.yaml
+      - template: /common/config/azure-pipelines/templates/build.yaml@self
