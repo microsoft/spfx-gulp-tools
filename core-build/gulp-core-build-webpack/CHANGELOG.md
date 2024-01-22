@@ -1,6 +1,14 @@
 # Change Log - @microsoft/gulp-core-build-webpack
 
-This log was last generated on Thu, 07 Sep 2023 20:21:39 GMT and should not be manually modified.
+This log was last generated on Mon, 22 Jan 2024 23:56:54 GMT and should not be manually modified.
+
+## 6.0.0
+Mon, 22 Jan 2024 23:56:54 GMT
+
+### Breaking changes
+
+- Update to use Webpack 5 and drop support for Webpack 4.
+- Remove the built-in webpack configuration and the `--initwebpack` CLI parameter.
 
 ## 5.4.0
 Thu, 07 Sep 2023 20:21:39 GMT

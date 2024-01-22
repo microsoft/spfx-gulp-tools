@@ -1,6 +1,13 @@
 # Change Log - @microsoft/web-library-build
 
-This log was last generated on Thu, 07 Sep 2023 20:21:39 GMT and should not be manually modified.
+This log was last generated on Mon, 22 Jan 2024 23:56:54 GMT and should not be manually modified.
+
+## 8.0.0
+Mon, 22 Jan 2024 23:56:54 GMT
+
+### Breaking changes
+
+- Update to Webpack 5.
 
 ## 7.6.3
 Thu, 07 Sep 2023 20:21:39 GMT

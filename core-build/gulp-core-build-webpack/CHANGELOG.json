@@ -2,6 +2,21 @@
   "name": "@microsoft/gulp-core-build-webpack",
   "entries": [
     {
+      "version": "6.0.0",
+      "tag": "@microsoft/gulp-core-build-webpack_v6.0.0",
+      "date": "Mon, 22 Jan 2024 23:56:54 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "Update to use Webpack 5 and drop support for Webpack 4."
+          },
+          {
+            "comment": "Remove the built-in webpack configuration and the `--initwebpack` CLI parameter."
+          }
+        ]
+      }
+    },
+    {
       "version": "5.4.0",
       "tag": "@microsoft/gulp-core-build-webpack_v5.4.0",
       "date": "Thu, 07 Sep 2023 20:21:39 GMT",
