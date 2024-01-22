@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@microsoft/gulp-core-build-webpack",
+      "comment": "Remove the built-in webpack configuration and the `--initwebpack` CLI parameter.",
+      "type": "major"
+    }
+  ],
+  "packageName": "@microsoft/gulp-core-build-webpack"
+}
