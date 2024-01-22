@@ -7,7 +7,7 @@
 import * as Gulp from 'gulp';
 import { GulpTask } from '@microsoft/gulp-core-build';
 import { IBuildConfig } from '@microsoft/gulp-core-build';
-import * as Webpack from 'webpack';
+import type * as Webpack from 'webpack';
 
 // @public (undocumented)
 export interface IWebpackResources {

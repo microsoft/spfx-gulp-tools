@@ -12,9 +12,6 @@
 ### Description
 This task invokes webpack using a consumer-specified `webpack.config.js` on a package.
 
-### Command Line Options
-If the `--initwebpack` flag is passed to the command line, this task will initialize a `webpack.config.js` which bundles `lib/index.js` into `dist/{packagename}.js as a UMD module.
-
 ### Config
 ```typescript
 interface IWebpackConfig {
