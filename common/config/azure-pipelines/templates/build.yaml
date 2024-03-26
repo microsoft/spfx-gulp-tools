@@ -6,20 +6,20 @@ steps:
       checkLatest: true
   - script: 'git config --local user.email rushbot@users.noreply.github.com'
     displayName: 'git config email'
-    workingDirectory: '$(Agent.BuildDirectory)/rushstack-legacy'
+    workingDirectory: '$(Agent.BuildDirectory)/spfx-gulp-tools'
   - script: 'git config --local user.name Rushbot'
     displayName: 'git config name'
-    workingDirectory: '$(Agent.BuildDirectory)/rushstack-legacy'
+    workingDirectory: '$(Agent.BuildDirectory)/spfx-gulp-tools'
   - script: 'node common/scripts/install-run-rush.js change --verify'
     displayName: 'Verify Change Logs'
-    workingDirectory: '$(Agent.BuildDirectory)/rushstack-legacy'
+    workingDirectory: '$(Agent.BuildDirectory)/spfx-gulp-tools'
   - script: 'node common/scripts/install-run-rush.js install'
     displayName: 'Rush Install'
-    workingDirectory: '$(Agent.BuildDirectory)/rushstack-legacy'
+    workingDirectory: '$(Agent.BuildDirectory)/spfx-gulp-tools'
   - script: 'node common/scripts/install-run-rush.js rebuild --verbose --production'
     displayName: 'Rush Rebuild'
     env:
       # Prevent time-based browserslist update warning
       # See https://github.com/microsoft/rushstack/issues/2981
       BROWSERSLIST_IGNORE_OLD_DATA: 1
-    workingDirectory: '$(Agent.BuildDirectory)/rushstack-legacy'
+    workingDirectory: '$(Agent.BuildDirectory)/spfx-gulp-tools'

@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "comment": "Update README.",
+      "type": "patch",
+      "packageName": "@microsoft/rush-stack-compiler-4.0"
+    }
+  ],
+  "packageName": "@microsoft/rush-stack-compiler-4.0",
+  "email": "iclanton@users.noreply.github.com"
+}

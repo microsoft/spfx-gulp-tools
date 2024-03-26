@@ -8,7 +8,8 @@
  *
  * It provides a supported set of versions for the following components:
  * - the TypeScript compiler
- * - [tslint](https://github.com/palantir/tslint#readme)
+ * - [eslint](https://eslint.org/)
+- [tslint](https://github.com/palantir/tslint#readme)
  * - [API Extractor](https://api-extractor.com/)
  *
  * @packageDocumentation

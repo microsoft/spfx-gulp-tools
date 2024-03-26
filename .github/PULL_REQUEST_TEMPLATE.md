@@ -9,15 +9,6 @@
      a GitHub issue and get feedback on your proposed design.
 --------------------------------------------------------------------------->
 
-<!--------------------------------------------------------------------------
-👉 STEP 3: Write a concise but specific PR title in the box above.
-     Prefix your PR with a relevant Rush Stack package name in brackets.
-     For example, if your PR fixes the "@rushstack/ts-command-line" project,
-     then your GitHub title might look like:
-
-     "[ts-command-line] Add support for numeric command line parameters"
---------------------------------------------------------------------------->
-
 ## Summary
 
 <!--------------------------------------------------------------------------
