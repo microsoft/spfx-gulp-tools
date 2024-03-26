@@ -2,7 +2,7 @@ variables:
   - name: FORCE_COLOR
     value: 1
   - name: NodeVersion
-    value: 16
+    value: 18
 
 resources:
   repositories:
