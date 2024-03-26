@@ -7,5 +7,6 @@ to select a TypeScript compiler version. This variant selects TypeScript 3.9
 It provides a supported set of versions for the following components:
 
 - the TypeScript compiler
+- [eslint](https://eslint.org/)
 - [tslint](https://github.com/palantir/tslint#readme)
 - [API Extractor](https://api-extractor.com/)

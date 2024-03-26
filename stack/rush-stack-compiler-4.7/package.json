@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/rushstack-legacy/tree/master/stack/rush-stack-compiler-4.7"
+    "url": "https://github.com/microsoft/spfx-gulp-tools/tree/master/stack/rush-stack-compiler-4.7"
   },
   "bin": {
     "rush-api-extractor": "./bin/rush-api-extractor",

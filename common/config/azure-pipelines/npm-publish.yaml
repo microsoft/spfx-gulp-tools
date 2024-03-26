@@ -40,7 +40,7 @@ extends:
             steps:
               - checkout: self
                 persistCredentials: true
-                path: rushstack-legacy
+                path: spfx-gulp-tools
               - template: /common/config/azure-pipelines/templates/build.yaml@self
               - template: /common/config/azure-pipelines/templates/publish.yaml@self
                 parameters:

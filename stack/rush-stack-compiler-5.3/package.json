@@ -1,11 +1,11 @@
 {
   "name": "@microsoft/rush-stack-compiler-5.3",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "A plug-in for selecting the compiler used with the @microsoft/rush-stack toolchain. This version selects TypeScript 5.3.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/rushstack-legacy/tree/master/stack/rush-stack-compiler-5.3"
+    "url": "https://github.com/microsoft/spfx-gulp-tools/tree/master/stack/rush-stack-compiler-5.3"
   },
   "bin": {
     "rush-api-extractor": "./bin/rush-api-extractor",
