@@ -46,6 +46,24 @@ export interface IWebpackResources {
   webpack: typeof Webpack;
 }
 
+function normalizeWebpackError(error: Webpack.StatsError): string {
+  if (typeof error === 'string') {
+    return error;
+  } else {
+    const { loc, moduleName, moduleIdentifier } = error;
+    const modulePath: string | undefined = moduleName ?? moduleIdentifier;
+    if (modulePath) {
+      if (loc) {
+        return `${modulePath}:${loc}: ${error.message}`;
+      } else {
+        return `${modulePath}: ${error.message}`;
+      }
+    } else {
+      return error.message;
+    }
+  }
+}
+
 /**
  * @public
  */
@@ -141,7 +159,12 @@ export class WebpackTask<TExtendedConfig = {}> extends GulpTask<IWebpackTaskConf
 
         if (statsResult) {
           if (statsResult.errors && statsResult.errors.length) {
-            this.logError(`'${outputDir}':` + EOL + statsResult.errors.join(EOL) + EOL);
+            const errorTexts: string[] = [];
+            for (const error of statsResult.errors) {
+              errorTexts.push(normalizeWebpackError(error));
+            }
+
+            this.logError(`'${outputDir}':` + EOL + errorTexts.join(EOL) + EOL);
           }
 
           if (statsResult.warnings && statsResult.warnings.length) {
@@ -168,18 +191,12 @@ export class WebpackTask<TExtendedConfig = {}> extends GulpTask<IWebpackTaskConf
             }
 
             if (unsuppressedWarnings.length > 0) {
-              this.logWarning(
-                `'${outputDir}':` +
-                  EOL +
-                  unsuppressedWarnings
-                    .map(
-                      (unsuppressedWarning) =>
-                        (unsuppressedWarning.loc ? `${unsuppressedWarning.loc}: ` : '') +
-                        unsuppressedWarning.message
-                    )
-                    .join(EOL) +
-                  EOL
-              );
+              const warningTexts: string[] = [];
+              for (const warning of unsuppressedWarnings) {
+                warningTexts.push(normalizeWebpackError(warning));
+              }
+
+              this.logWarning(`'${outputDir}':` + EOL + warningTexts.join(EOL) + EOL);
             }
           }
 
