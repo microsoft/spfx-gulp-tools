@@ -32,3 +32,5 @@ jobs:
 
       - name: Rush Rebuild
         run: node common/scripts/install-run-rush.js rebuild --verbose --production
+        env:
+          BROWSERSLIST_IGNORE_OLD_DATA: 1
