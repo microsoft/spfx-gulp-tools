@@ -19,7 +19,7 @@
     "@rushstack/node-core-library": "~3.53.0",
     "@types/node": "10.17.13",
     "colors": "~1.2.1",
-    "express": "~4.16.2",
+    "express": "~4.18.1",
     "gulp": "~4.0.2",
     "gulp-connect": "~5.7.0",
     "open": "8.4.2",
