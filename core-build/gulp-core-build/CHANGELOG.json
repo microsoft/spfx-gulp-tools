@@ -2,6 +2,18 @@
   "name": "@microsoft/gulp-core-build",
   "entries": [
     {
+      "version": "3.19.0",
+      "tag": "@microsoft/gulp-core-build_v3.19.0",
+      "date": "Mon, 16 Sep 2024 02:01:24 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Fix some CVE issues."
+          }
+        ]
+      }
+    },
+    {
       "version": "3.18.1",
       "tag": "@microsoft/gulp-core-build_v3.18.1",
       "date": "Sun, 13 Aug 2023 04:04:31 GMT",

@@ -2,6 +2,26 @@
   "name": "@microsoft/gulp-core-build-serve",
   "entries": [
     {
+      "version": "3.13.0",
+      "tag": "@microsoft/gulp-core-build-serve_v3.13.0",
+      "date": "Mon, 16 Sep 2024 02:01:24 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Fix some CVE issues."
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@microsoft/gulp-core-build\" to `3.19.0`"
+          },
+          {
+            "comment": "Updating dependency \"@microsoft/node-library-build\" to `6.6.3`"
+          }
+        ]
+      }
+    },
+    {
       "version": "3.12.2",
       "tag": "@microsoft/gulp-core-build-serve_v3.12.2",
       "date": "Tue, 26 Mar 2024 17:43:49 GMT",
