@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@microsoft/gulp-core-build-typescript",
+      "comment": "Remove comments from JavaScript behind production build config flag",
+      "type": "major"
+    }
+  ],
+  "packageName": "@microsoft/gulp-core-build-typescript"
+}

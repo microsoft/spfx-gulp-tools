@@ -25,7 +25,6 @@ export interface ILintCmdTaskConfig extends IRSCTaskConfig {
 // @public (undocumented)
 export interface ITscCmdTaskConfig extends IRSCTaskConfig {
     customArgs?: string[];
-    removeCommentsFromJavaScript?: boolean;
     staticMatch?: string[];
 }
 

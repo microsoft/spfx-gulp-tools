@@ -24,12 +24,6 @@ export interface ITscCmdTaskConfig extends IRSCTaskConfig {
    * Glob matches for files to be passed through the build.
    */
   staticMatch?: string[];
-
-  /**
-   * Removes comments from all generated `.js` files in the TSConfig outDir. Will **not** remove comments from
-   * generated `.d.ts` files. Defaults to false.
-   */
-  removeCommentsFromJavaScript?: boolean;
 }
 
 /**
@@ -38,8 +32,7 @@ export interface ITscCmdTaskConfig extends IRSCTaskConfig {
 export class TscCmdTask extends RSCTask<ITscCmdTaskConfig> {
   public constructor() {
     super('tsc', {
-      staticMatch: ['src/**/*.js', 'src/**/*.json', 'src/**/*.jsx'],
-      removeCommentsFromJavaScript: false
+      staticMatch: ['src/**/*.js', 'src/**/*.json', 'src/**/*.jsx']
     });
   }
 
@@ -105,7 +98,7 @@ export class TscCmdTask extends RSCTask<ITscCmdTaskConfig> {
       /* collapse void[] to void */
     });
 
-    if (this.taskConfig.removeCommentsFromJavaScript === true) {
+    if (this.buildConfig.production) {
       buildPromise = buildPromise.then(() => this._removeComments(rushStackCompiler.Typescript));
     }
 
