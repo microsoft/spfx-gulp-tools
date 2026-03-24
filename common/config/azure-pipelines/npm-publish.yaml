@@ -6,10 +6,6 @@ variables:
 
 resources:
   repositories:
-    - repository: RushstackMainRepo
-      type: github
-      name: Microsoft/rushstack
-      endpoint: 'GitHub (Rushbot)'
     - repository: 1esPipelines
       type: git
       name: 1ESPipelineTemplates/1ESPipelineTemplates
@@ -21,10 +17,6 @@ extends:
     pool:
       name: Azure-Pipelines-1ESPT-ExDShared
       os: windows
-    sdl:
-      sourceRepositoriesToScan:
-        include:
-          - repository: RushstackMainRepo
     stages:
       - stage:
         jobs:
@@ -40,9 +32,11 @@ extends:
             steps:
               - checkout: self
                 persistCredentials: true
-                path: spfx-gulp-tools
+
               - template: /common/config/azure-pipelines/templates/build.yaml@self
+
               - template: /common/config/azure-pipelines/templates/publish.yaml@self
                 parameters:
                   VersionPolicyName: noRush
+
               - template: /common/config/azure-pipelines/templates/record-published-versions.yaml@self
