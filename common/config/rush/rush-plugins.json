@@ -21,5 +21,10 @@
     //    */
     //   "autoinstallerName": "plugins"
     // }
+    {
+      "packageName": "@rushstack/rush-published-versions-json-plugin",
+      "pluginName": "rush-published-versions-json-plugin",
+      "autoinstallerName": "plugins"
+    }
   ]
 }
