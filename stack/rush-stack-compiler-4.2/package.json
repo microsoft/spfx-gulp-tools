@@ -20,9 +20,9 @@
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "dependencies": {
-    "@microsoft/api-extractor": "~7.15.2",
-    "@rushstack/eslint-config": "~2.6.2",
-    "@rushstack/node-core-library": "~3.53.0",
+    "@microsoft/api-extractor": "~7.57.7",
+    "@rushstack/eslint-config": "~4.6.4",
+    "@rushstack/node-core-library": "~5.20.3",
     "@types/node": "10.17.13",
     "eslint": "~7.12.1",
     "import-lazy": "~4.0.0",
@@ -31,8 +31,8 @@
   "devDependencies": {
     "@microsoft/rush-stack-compiler-4.7": "workspace:*",
     "@microsoft/rush-stack-compiler-shared": "workspace:*",
-    "@rushstack/eslint-config": "~2.6.2",
-    "@rushstack/heft": "0.48.0",
-    "@rushstack/heft-node-rig": "1.11.0"
+    "@rushstack/eslint-config": "~4.6.4",
+    "@rushstack/heft": "1.2.7",
+    "@rushstack/heft-node-rig": "2.11.27"
   }
 }
