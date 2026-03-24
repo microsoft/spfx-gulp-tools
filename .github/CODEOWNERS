@@ -1,17 +1,12 @@
-.github/CODEOWNERS @iclanton @octogonz @patmill @apostolisms
-common/config/**/* @iclanton @octogonz @patmill @apostolisms
+.github/CODEOWNERS @iclanton @octogonz @patmill @apostolisms @nick-pape @cmalonzo
+common/config/**/* @iclanton @octogonz @patmill @apostolisms @nick-pape @cmalonzo
 
-common/reviews/**/* @iclanton @octogonz @apostolisms
+common/reviews/**/* @iclanton @octogonz @apostolisms @nick-pape @cmalonzo
 
-apps/**/* @iclanton @octogonz @apostolisms @halfnibble @sachinjoseph @D4N14L
-build-tests/**/* @iclanton @octogonz @apostolisms @halfnibble @sachinjoseph @D4N14L
-core-build/**/* @iclanton @octogonz @apostolisms @halfnibble @sachinjoseph @D4N14L
-libraries/**/* @iclanton @octogonz @apostolisms @halfnibble @sachinjoseph @D4N14L
-stack/**/* @iclanton @octogonz @apostolisms @halfnibble @sachinjoseph @D4N14L
-webpack/**/* @iclanton @octogonz @apostolisms @halfnibble @sachinjoseph @D4N14L
-rush.json @iclanton @octogonz @apostolisms @halfnibble @sachinjoseph @D4N14L
-.gitattributes @iclanton @octogonz @apostolisms @halfnibble @sachinjoseph @D4N14L
-.gitignore @iclanton @octogonz @apostolisms @halfnibble @sachinjoseph @D4N14L
-README.md @iclanton @octogonz @apostolisms @halfnibble @sachinjoseph @D4N14L
-
-libraries/load-themed-styles/**/* @iclanton @octogonz @dzearing @apostolisms
+build-tests/**/* @iclanton @octogonz @apostolisms @nick-pape @cmalonzo
+core-build/**/* @iclanton @octogonz @apostolisms @nick-pape @cmalonzo
+stack/**/* @iclanton @octogonz @apostolisms @nick-pape @cmalonzo
+rush.json @iclanton @octogonz @apostolisms @nick-pape @cmalonzo
+.gitattributes @iclanton @octogonz @apostolisms @nick-pape @cmalonzo
+.gitignore @iclanton @octogonz @apostolisms @nick-pape @cmalonzo
+README.md @iclanton @octogonz @apostolisms @nick-pape @cmalonzo
