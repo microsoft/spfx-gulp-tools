@@ -15,8 +15,8 @@
   },
   "dependencies": {
     "@microsoft/gulp-core-build": "workspace:*",
-    "@microsoft/load-themed-styles": "~1.10.172",
-    "@rushstack/node-core-library": "~3.53.0",
+    "@microsoft/load-themed-styles": "~2.2.7",
+    "@rushstack/node-core-library": "~5.20.3",
     "@types/gulp": "4.0.6",
     "@types/node": "10.17.13",
     "autoprefixer": "~9.8.8",
@@ -29,7 +29,7 @@
   "devDependencies": {
     "@microsoft/node-library-build": "workspace:*",
     "@microsoft/rush-stack-compiler-4.7": "workspace:*",
-    "@rushstack/eslint-config": "~2.6.2",
+    "@rushstack/eslint-config": "~4.6.4",
     "@types/autoprefixer": "9.7.2",
     "@types/clean-css": "4.2.1",
     "@types/glob": "7.1.1",

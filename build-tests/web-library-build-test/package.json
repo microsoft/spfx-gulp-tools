@@ -9,7 +9,7 @@
     "build": "gulp --clean"
   },
   "devDependencies": {
-    "@microsoft/load-themed-styles": "~1.10.172",
+    "@microsoft/load-themed-styles": "~2.2.7",
     "@microsoft/rush-stack-compiler-4.5": "workspace:*",
     "@microsoft/web-library-build": "workspace:*",
     "gulp": "~4.0.2",
