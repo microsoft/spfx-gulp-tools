@@ -7,8 +7,8 @@ jobs:
     condition: succeeded()
     strategy:
       matrix:
-        'NodeJs 18':
-          NodeVersion: 18
+        'NodeJs 24':
+          NodeVersion: 24.22.1
 
     steps:
       - checkout: self

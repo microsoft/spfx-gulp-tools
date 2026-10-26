@@ -22,7 +22,7 @@ jobs:
 
       - uses: actions/setup-node@3235b876344d2a9aa001b8d1453c930bba69e610 # v3.9.1
         with:
-          node-version: 18.18.x
+          node-version: 24.22.1
 
       - name: Verify Change Logs
         run: node common/scripts/install-run-rush.js change --verify
@@ -34,3 +34,4 @@ jobs:
         run: node common/scripts/install-run-rush.js rebuild --verbose --production
         env:
           BROWSERSLIST_IGNORE_OLD_DATA: 1
+          NODE_OPTIONS: --disable-warning=DEP0176
